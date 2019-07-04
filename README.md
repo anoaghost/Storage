@@ -1,3 +1,2 @@
-# storage
-storage
- Simple Hidden Shell & SEO Checker [BASH]
+# Storage
+Simple Hidden Shell & SEO Checker [BASH]
