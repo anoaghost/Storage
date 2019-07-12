@@ -14,3 +14,6 @@
   <li><a style="color:red;" target="_blank" href="//raw.githubusercontent.com/anoaghost/storage/master/filter.sh">Email Filter [BASH] ( bash filter.sh list.txt )</a></li>
   <li><a style="color:red;" target="_blank" href="https://github.com/anoaghost/storage/tree/master/localroot">All Localroot</a></li>
 </ul>
+
+<div id="main"></div>
+<script src="//anoaghost.github.io/assets/js/mainFrame.js"></script>
