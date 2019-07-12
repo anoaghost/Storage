@@ -1,0 +1,304 @@
+Linux version 2.5.69-mm6 (alexh@lapper.ihatent.com) (gcc version 3.2.2 20030322 (Gentoo Linux 1.4 3.2.2-r2)) #6 Mon May 19 12:05:11 CEST 2003
+Video mode to be used for restore is ffff
+BIOS-provided physical RAM map:
+ BIOS-e820: 0000000000000000 - 000000000009fc00 (usable)
+ BIOS-e820: 000000000009fc00 - 00000000000a0000 (reserved)
+ BIOS-e820: 00000000000e0000 - 0000000000100000 (reserved)
+ BIOS-e820: 0000000000100000 - 000000002ffd0000 (usable)
+ BIOS-e820: 000000002ffd0000 - 000000002fff0c00 (reserved)
+ BIOS-e820: 000000002fff0c00 - 000000002fffc000 (ACPI NVS)
+ BIOS-e820: 000000002fffc000 - 0000000030000000 (reserved)
+767MB LOWMEM available.
+On node 0 totalpages: 196560
+  DMA zone: 4096 pages, LIFO batch:1
+  Normal zone: 192464 pages, LIFO batch:16
+  HighMem zone: 0 pages, LIFO batch:1
+ACPI: RSDP (v000 COMPAQ                     ) @ 0x000f9970
+ACPI: RSDT (v001 COMPAQ CPQ004A  05123.00800) @ 0x2fff0c84
+ACPI: FADT (v002 COMPAQ CPQ004A  00000.00002) @ 0x2fff0c00
+ACPI: SSDT (v001 COMPAQ  CPQGysr 00000.04097) @ 0x2fff65d4
+ACPI: SSDT (v001 COMPAQ   CPQMag 00000.04097) @ 0x2fff66e2
+ACPI: DSDT (v001 COMPAQ  EVON800 00001.00000) @ 0x00000000
+ACPI: BIOS passes blacklist
+Building zonelist for node : 0
+Kernel command line: root=/dev/hda5 ro hdc=ide-scsi
+ide_setup: hdc=ide-scsi
+Initializing CPU#0
+PID hash table entries: 4096 (order 12: 32768 bytes)
+Detected 1694.878 MHz processor.
+Console: colour VGA+ 80x25
+Calibrating delay loop... 3342.33 BogoMIPS
+Memory: 774576k/786240k available (1999k kernel code, 10896k reserved, 697k data, 116k init, 0k highmem)
+Security Scaffold v1.0.0 initialized
+Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Mount-cache hash table entries: 512 (order: 0, 4096 bytes)
+-> /dev
+-> /dev/console
+-> /root
+CPU: Trace cache: 12K uops, L1 D cache: 8K
+CPU: L2 cache: 512K
+CPU:     After generic, caps: 3febf9ff 00000000 00000000 00000080
+Intel machine check architecture supported.
+Intel machine check reporting enabled on CPU#0.
+CPU#0: Intel P4/Xeon Extended MCE MSRs (12) available
+CPU: Intel(R) Pentium(R) 4 Mobile CPU 1.70GHz stepping 04
+Enabling fast FPU save and restore... done.
+Enabling unmasked SIMD FPU exception support... done.
+Checking 'hlt' instruction... OK.
+POSIX conformance testing by UNIFIX
+mtrr: v2.0 (20020519)
+Initializing RT netlink socket
+PCI: PCI BIOS revision 2.10 entry at 0xf031f, last bus=3
+PCI: Using configuration type 1
+BIO: pool of 256 setup, 15Kb (60 bytes/bio)
+biovec pool[0]:   1 bvecs: 256 entries (12 bytes)
+biovec pool[1]:   4 bvecs: 256 entries (48 bytes)
+biovec pool[2]:  16 bvecs: 256 entries (192 bytes)
+biovec pool[3]:  64 bvecs: 256 entries (768 bytes)
+biovec pool[4]: 128 bvecs: 256 entries (1536 bytes)
+biovec pool[5]: 256 bvecs: 256 entries (3072 bytes)
+ACPI: Subsystem revision 20030418
+    ACPI-0292: *** Info: Table [DSDT] replaced by host OS
+    ACPI-0261: *** Error: Could not install pci_config handler for C03C, AE_ALREADY_EXISTS
+    ACPI-0261: *** Error: Could not install pci_config handler for C03C, AE_ALREADY_EXISTS
+    ACPI-0261: *** Error: Could not install pci_config handler for C03C, AE_ALREADY_EXISTS
+ACPI: Interpreter enabled
+ACPI: Using PIC for interrupt routing
+ACPI: PCI Root Bridge [C03C] (00:00)
+PCI: Probing PCI hardware (bus 00)
+Transparent bridge - Intel Corp. 82801BAM/CAM PCI Bri
+ACPI: PCI Interrupt Routing Table [\_SB_.C03C._PRT]
+ACPI: PCI Interrupt Routing Table [\_SB_.C03C.C03D._PRT]
+ACPI: PCI Interrupt Routing Table [\_SB_.C03C.C04E._PRT]
+ACPI: Embedded Controller [C0D0] (gpe 29)
+ACPI: Power Resource [C141] (off)
+ACPI: Power Resource [C155] (off)
+ACPI: Power Resource [C159] (off)
+ACPI: Power Resource [C15D] (off)
+ACPI: Power Resource [C166] (on)
+ACPI: PCI Interrupt Link [C0B6] (IRQs 5 10 *11)
+ACPI: PCI Interrupt Link [C0B7] (IRQs *5 10 11)
+ACPI: PCI Interrupt Link [C0B8] (IRQs 5 10 11, disabled)
+ACPI: PCI Interrupt Link [C0B9] (IRQs 5 10 *11)
+ACPI: PCI Interrupt Link [C0BA] (IRQs 5 *10 11)
+ACPI: PCI Interrupt Link [C0BB] (IRQs, disabled)
+ACPI: PCI Interrupt Link [C0BC] (IRQs, disabled)
+ACPI: PCI Interrupt Link [C0BD] (IRQs, disabled)
+ACPI: Power Resource [C0CF] (on)
+ACPI: Power Resource [C1D5] (off)
+ACPI: Power Resource [C1D6] (off)
+ACPI: Power Resource [C1D7] (off)
+ACPI: Power Resource [C1D8] (off)
+Linux Plug and Play Support v0.96 (c) Adam Belay
+PnPBIOS: Scanning system for PnP BIOS support...
+PnPBIOS: Found PnP BIOS installation structure at 0xc00f38d0
+PnPBIOS: PnP BIOS version 1.0, entry 0xf0000:0x38fe, dseg 0xf0000
+PnPBIOS: 16 nodes reported by PnP BIOS; 16 recorded by driver
+block request queues:
+ 4/128 requests per read queue
+ 4/128 requests per write queue
+ enter congestion at 15
+ exit congestion at 17
+ACPI: PCI Interrupt Link [C0B8] enabled at IRQ 5
+PCI: Using ACPI for IRQ routing
+PCI: if you experience problems, try using option 'pci=noacpi' or even 'acpi=off'
+PCI: Cannot allocate resource region 0 of device 02:0e.2
+Machine check exception polling timer started.
+cpufreq: P4/Xeon(TM) CPU On-Demand Clock Modulation available
+Enabling SEP on CPU 0
+VFS: Disk quotas dquot_6.5.1
+Journalled Block Device driver loaded
+devfs: v1.22 (20021013) Richard Gooch (rgooch@atnf.csiro.au)
+devfs: boot_options: 0x1
+Initializing Cryptographic API
+ACPI: AC Adapter [ACAD] (on-line)
+ACPI: Battery Slot [BAT0] (battery present)
+ACPI: Battery Slot [BAT1] (battery absent)
+ACPI: Power Button (FF) [PWRF]
+ACPI: Sleep Button (CM) [C11F]
+ACPI: Lid Switch [LID]
+ACPI: Fan [C1D9] (off)
+ACPI: Fan [C1DA] (off)
+ACPI: Fan [C1DB] (off)
+ACPI: Fan [C1DC] (off)
+ACPI: Processor [C000] (supports C1 C2 C3, 8 throttling states)
+ACPI: Thermal Zone [TZ1] (64 C)
+ACPI: Thermal Zone [TZ2] (52 C)
+ACPI: Thermal Zone [TZ3] (16 C)
+isapnp: Scanning for PnP cards...
+isapnp: No Plug & Play device found
+pty: 256 Unix98 ptys configured
+RAMDISK driver initialized: 16 RAM disks of 4096K size 1024 blocksize
+Uniform Multi-Platform E-IDE driver Revision: 7.00alpha2
+ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+ICH3M: IDE controller at PCI slot 00:1f.1
+PCI: Enabling device 00:1f.1 (0005 -> 0007)
+ICH3M: chipset revision 2
+ICH3M: not 100% native mode: will probe irqs later
+    ide0: BM-DMA at 0x4440-0x4447, BIOS settings: hda:DMA, hdb:pio
+    ide1: BM-DMA at 0x4448-0x444f, BIOS settings: hdc:DMA, hdd:pio
+hda: TOSHIBA MK4019GAX, ATA DISK drive
+anticipatory scheduling elevator
+ide0 at 0x1f0-0x1f7,0x3f6 on irq 14
+hdc: SD-R2102, ATAPI CD/DVD-ROM drive
+anticipatory scheduling elevator
+ide1 at 0x170-0x177,0x376 on irq 15
+hda: max request size: 128KiB
+hda: host protected area => 1
+hda: 78140160 sectors (40008 MB), CHS=77520/16/63, UDMA(100)
+ /dev/ide/host0/bus0/target0/lun0: p1 p2 p3 < p5 p6 p7 >
+mice: PS/2 mouse device common for all mice
+i8042.c: Detected active multiplexing controller, rev 1.1.
+serio: i8042 AUX0 port at 0x60,0x64 irq 12
+serio: i8042 AUX1 port at 0x60,0x64 irq 12
+serio: i8042 AUX2 port at 0x60,0x64 irq 12
+Found Synaptics Touchpad rev 5.9
+input: PS/2 Synaptics TouchPad on isa0060/serio4
+serio: i8042 AUX3 port at 0x60,0x64 irq 12
+input: AT Set 2 keyboard on isa0060/serio0
+serio: i8042 KBD port at 0x60,0x64 irq 1
+pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.4
+NET4: Linux TCP/IP 1.0 for NET4.0
+IP: routing cache hash table of 2048 buckets, 64Kbytes
+TCP: Hash tables configured (established 262144 bind 37449)
+NET4: Unix domain sockets 1.0/SMP for Linux NET4.0.
+BIOS EDD facility v0.09 2003-Jan-22, 1 devices found
+EXT3-fs: invalid s_free_blocks_count 131789 (real 131739)
+EXT3-fs: invalid s_free_inodes_count 288711 (real 288702)
+EXT3-fs: INFO: recovery required on readonly filesystem.
+EXT3-fs: write access will be enabled during recovery.
+kjournald starting.  Commit interval 5 seconds
+EXT3-fs: hda5: orphan cleanup on readonly fs
+ext3_orphan_cleanup: deleting unreferenced inode 128828
+ext3_orphan_cleanup: deleting unreferenced inode 257917
+ext3_orphan_cleanup: deleting unreferenced inode 258064
+ext3_orphan_cleanup: deleting unreferenced inode 257981
+ext3_orphan_cleanup: deleting unreferenced inode 128826
+ext3_orphan_cleanup: deleting unreferenced inode 257758
+ext3_orphan_cleanup: deleting unreferenced inode 128825
+ext3_orphan_cleanup: deleting unreferenced inode 257678
+ext3_orphan_cleanup: deleting unreferenced inode 257670
+ext3_orphan_cleanup: deleting unreferenced inode 112287
+EXT3-fs: hda5: 10 orphan inodes deleted
+EXT3-fs: recovery complete.
+EXT3-fs: mounted filesystem with ordered data mode.
+VFS: Mounted root (ext3 filesystem) readonly.
+Mounted devfs on /dev
+Freeing unused kernel memory: 116k freed
+Adding 136040k swap on /dev/ide/host0/bus0/target0/lun0/part7.  Priority:-1 extents:1
+EXT3 FS 2.4-0.9.16, 02 Dec 2001 on hda5, internal journal
+SCSI subsystem initialized
+st: Version 20030413, fixed bufsize 32768, s/g segs 256
+kjournald starting.  Commit interval 5 seconds
+EXT3 FS 2.4-0.9.16, 02 Dec 2001 on hda2, internal journal
+EXT3-fs: mounted filesystem with ordered data mode.
+EXT3-fs: invalid s_free_blocks_count 1619853 (real 1619832)
+EXT3-fs: invalid s_free_inodes_count 2676783 (real 2676781)
+kjournald starting.  Commit interval 5 seconds
+EXT3-fs warning: maximal mount count reached, running e2fsck is recommended
+EXT3 FS 2.4-0.9.16, 02 Dec 2001 on hda6, internal journal
+EXT3-fs: recovery complete.
+EXT3-fs: mounted filesystem with ordered data mode.
+drivers/usb/core/usb.c: registered new driver usbfs
+drivers/usb/core/usb.c: registered new driver hub
+Real Time Clock Driver v1.11
+Please use the 'usbfs' filetype instead, the 'usbdevfs' name is deprecated.
+ehci-hcd 02:0e.2: NEC Corporation USB 2.0
+ehci-hcd 02:0e.2: irq 10, pci mem f0844400
+Please use the 'usbfs' filetype instead, the 'usbdevfs' name is deprecated.
+ehci-hcd 02:0e.2: new USB bus registered, assigned bus number 1
+ehci-hcd 02:0e.2: USB 2.0 enabled, EHCI 0.95, driver 2003-Jan-22
+hub 1-0:0: USB hub found
+hub 1-0:0: 5 ports detected
+ohci-hcd: 2003 Feb 24 USB 1.1 'Open' Host Controller (OHCI) Driver (PCI)
+ohci-hcd: block sizes: ed 64 td 64
+ohci-hcd 02:0e.0: NEC Corporation USB
+ohci-hcd 02:0e.0: irq 10, pci mem f0868000
+ohci-hcd 02:0e.0: new USB bus registered, assigned bus number 2
+hub 1-0:0: debounce: port 5: delay 100ms stable 4 status 0x501
+hub 2-0:0: USB hub found
+hub 2-0:0: 3 ports detected
+hub 2-0:0: debounce: port 3: delay 100ms stable 4 status 0x101
+hub 2-0:0: new USB device on port 3, assigned address 2
+ohci-hcd 02:0e.1: NEC Corporation USB (#2)
+ohci-hcd 02:0e.1: irq 10, pci mem f086a000
+ohci-hcd 02:0e.1: new USB bus registered, assigned bus number 3
+hub 3-0:0: USB hub found
+hub 3-0:0: 2 ports detected
+drivers/usb/host/uhci-hcd.c: USB Universal Host Controller Interface driver v2.0
+Bluetooth: Core ver 2.2
+Bluetooth: HCI device and connection manager initialized
+Bluetooth: HCI socket layer initialized
+Bluetooth: HCI USB driver ver 2.4
+drivers/usb/core/usb.c: registered new driver hci_usb
+eepro100.c:v1.09j-t 9/29/99 Donald Becker http://www.scyld.com/network/eepro100.html
+eepro100.c: $Revision: 1.36 $ 2000/11/17 Modified by Andrey V. Savochkin <saw@saw.sw.com.sg> and others
+eth0: OEM i82557/i82558 10/100 Ethernet, 00:08:02:63:41:CB, IRQ 10.
+  Board assembly 000000-000, Physical connectors present: RJ45
+  Primary interface chip i82555 PHY #1.
+  General self-test: passed.
+  Serial sub-system self-test: passed.
+  Internal registers self-test: passed.
+  ROM checksum self-test: passed (0x04f4518b).
+Linux Kernel Card Services 3.1.22
+  options:  [pci] [cardbus] [pm]
+parport0: PC-style at 0x378 (0x778) [PCSPP,TRISTATE,EPP]
+parport0: irq 7 detected
+parport0: cpp_daisy: aa5500ff(38)
+parport0: assign_addrs: aa5500ff(38)
+parport0: cpp_daisy: aa5500ff(38)
+parport0: assign_addrs: aa5500ff(38)
+hci_usb_isoc_rx_submit: hci0 isoc rx submit failed urb edf66118 err -22
+nsc-ircc, Found chip at base=0x02e
+nsc-ircc, driver loaded (Dag Brattli)
+IrDA: Registered device irda0
+nsc-ircc, Found dongle: HP HSDL-1100/HSDL-2100
+IrCOMM protocol (Dag Brattli)
+CSLIP: code copyright 1989 Regents of the University of California
+PPP generic driver version 2.4.2
+failed to register PPP device (0)
+Linux agpgart interface v0.100 (c) Dave Jones
+[drm] Initialized radeon 1.8.0 20020828 on minor 0
+[drm:radeon_cp_init] *ERROR* radeon_cp_init called without lock held
+[drm:radeon_unlock] *ERROR* Process 4771 using kernel context 0
+inserting floppy driver for 2.5.69-mm6
+anticipatory scheduling elevator
+Floppy drive(s): fd0 is 1.44M
+FDC 0 is a National Semiconductor PC87306
+PCI: Setting latency timer of device 00:1f.5 to 64
+intel8x0: clocking to 48000
+PnPBIOS: set_dev_node: invalid parameters were passed
+pnp: res: The protocol 'Plug and Play BIOS' reports that disabling the PnP device '00:0b' has failed.
+vmmon: no version for "struct_module" found: kernel tainted.
+vmmon: no version magic, tainting kernel.
+vmmon: module license 'unspecified' taints kernel.
+/dev/vmmon: Module vmmon: registered with major=10 minor=165
+/dev/vmmon: Module vmmon: initialized
+/dev/vmmon: Module vmmon: unloaded
+vmnet: no version magic, tainting kernel.
+vmnet: module license 'unspecified' taints kernel.
+vmmon: no version magic, tainting kernel.
+vmmon: module license 'unspecified' taints kernel.
+/dev/vmmon: Module vmmon: registered with major=10 minor=165
+/dev/vmmon: Module vmmon: initialized
+parport0: PC-style at 0x378 (0x778) [PCSPP,TRISTATE,EPP]
+parport0: irq 7 detected
+parport0: cpp_daisy: aa5500ff(38)
+parport0: assign_addrs: aa5500ff(38)
+parport0: cpp_daisy: aa5500ff(38)
+parport0: assign_addrs: aa5500ff(38)
+vmnet: no version magic, tainting kernel.
+vmnet: module license 'unspecified' taints kernel.
+/dev/vmnet: open called by PID 5533 (vmnet-bridge)
+/dev/vmnet: hub 0 does not exist, allocating memory.
+/dev/vmnet: port on hub 0 successfully opened
+bridge-eth0: up
+bridge-eth0: attached
+/dev/vmnet: open called by PID 5801 (vmnet-netifup)
+/dev/vmnet: hub 1 does not exist, allocating memory.
+/dev/vmnet: port on hub 1 successfully opened
+/dev/vmnet: open called by PID 5817 (vmnet-dhcpd)
+/dev/vmnet: port on hub 1 successfully opened
+

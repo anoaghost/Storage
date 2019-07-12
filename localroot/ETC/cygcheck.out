@@ -1,0 +1,1557 @@
+
+Cygwin Configuration Diagnostics
+Current System Time: Thu Mar 09 08:43:04 2006
+
+Windows XP Professional Ver 5.1 Build 2600 Service Pack 2
+
+Path:	C:\cygwin\usr\local\bin
+	C:\cygwin\bin
+	C:\cygwin\bin
+	C:\cygwin\usr\X11R6\bin
+	c:\WINDOWS\system32
+	c:\WINDOWS
+	c:\WINDOWS\System32\Wbem
+	c:\Program Files\ATI Technologies\ATI.ACE\
+	c:\Program Files\Intel\Wireless\Bin\
+	c:\Program Files\QuickTime\QTSystem\
+	.\
+	c:\PROGRA~1\COMMON~1\MUVEET~1\030625
+	C:\cygwin\lib\lapack
+	C:\cygwin\home\nil\bin
+
+Output from C:\cygwin\bin\id.exe (nontsec)
+UID: 1005(nil)      GID: 513(None)
+0(root)             513(None)           544(Administrators) 545(Users)
+
+Output from C:\cygwin\bin\id.exe (ntsec)
+UID: 1005(nil)      GID: 513(None)
+0(root)             513(None)           544(Administrators) 545(Users)
+
+SysDir: C:\WINDOWS\system32
+WinDir: C:\WINDOWS
+
+USER = 'nil'
+PWD = '/tmp'
+HOME = '/home/nil'
+MAKE_MODE = 'unix'
+
+HOMEPATH = '\Documents and Settings\nil'
+NNTPSERVER = 'news'
+MANPATH = '/usr/local/man:/usr/share/man:/usr/man::/usr/ssl/man:/usr/share/qt3/doc/man:/usr/X11R6/man'
+APPDATA = 'C:\Documents and Settings\nil\Application Data'
+HOSTNAME = 'nil-laptop2'
+TERM = 'cygwin'
+PROCESSOR_IDENTIFIER = 'x86 Family 6 Model 14 Stepping 8, GenuineIntel'
+WINDIR = 'C:\WINDOWS'
+VS80COMNTOOLS = 'C:\Program Files\Microsoft Visual Studio 8\Common7\Tools\'
+TEXDOCVIEW_txt = 'cygstart %s'
+TEXDOCVIEW_dvi = 'cygstart %s'
+QTDIR = '/usr/lib/qt3'
+OLDPWD = '/home/nil/Desktop'
+USERDOMAIN = 'NIL-LAPTOP2'
+OS = 'Windows_NT'
+ALLUSERSPROFILE = 'C:\Documents and Settings\All Users'
+!:: = '::\'
+TEMP = '/cygdrive/c/DOCUME~1/nil/LOCALS~1/Temp'
+COMMONPROGRAMFILES = 'C:\Program Files\Common Files'
+QTJAVA = 'C:\Program Files\Java\jre1.5.0_03\lib\ext\QTJava.zip'
+USERNAME = 'nlaredo'
+TEXDOCVIEW_pdf = 'cygstart %s'
+PROCESSOR_LEVEL = '6'
+FP_NO_HOST_CHECK = 'NO'
+IRCSERVER = 'ICB/www.icb.net'
+SYSTEMDRIVE = 'C:'
+EDITOR = '/usr/bin/vim'
+TEXDOCVIEW_html = 'cygstart %s'
+USERPROFILE = 'C:\Documents and Settings\nil'
+QMAKESPEC = '/usr/lib/qt3/mkspecs/cygwin-g++'
+PS1 = '\u@\h:\w($?)\$ '
+LOGONSERVER = '\\NIL-LAPTOP2'
+PROCESSOR_ARCHITECTURE = 'x86'
+!C: = 'C:\cygwin\bin'
+SHLVL = '1'
+PATHEXT = '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+HOMEDRIVE = 'C:'
+BASH_ENV = '/home/nil/.bashrc'
+PROMPT = '$P$G'
+COMSPEC = 'C:\WINDOWS\system32\cmd.exe'
+TMP = '/cygdrive/c/DOCUME~1/nil/LOCALS~1/Temp'
+SYSTEMROOT = 'C:\WINDOWS'
+PRINTER = 'hp1200'
+CVS_RSH = 'ssh'
+PROCESSOR_REVISION = '0e08'
+CLASSPATH = 'C:\Program Files\Java\jre1.5.0_03\lib\ext\QTJava.zip'
+PKG_CONFIG_PATH = '/usr/X11R6/lib/pkgconfig'
+TEXDOCVIEW_ps = 'cygstart %s'
+INFOPATH = '/usr/local/info:/usr/share/info:/usr/info:'
+PROGRAMFILES = 'C:\Program Files'
+NUMBER_OF_PROCESSORS = '2'
+SESSIONNAME = 'Console'
+COMPUTERNAME = 'NIL-LAPTOP2'
+_ = '/usr/bin/cygcheck'
+POSIXLY_CORRECT = '1'
+
+HKEY_CURRENT_USER\Software\Cygnus Solutions
+HKEY_CURRENT_USER\Software\Cygnus Solutions\Cygwin
+HKEY_CURRENT_USER\Software\Cygnus Solutions\Cygwin\mounts v2
+HKEY_CURRENT_USER\Software\Cygnus Solutions\Cygwin\Program Options
+HKEY_LOCAL_MACHINE\SOFTWARE\Cygnus Solutions
+HKEY_LOCAL_MACHINE\SOFTWARE\Cygnus Solutions\Cygwin
+  (default) = 0x00000800
+HKEY_LOCAL_MACHINE\SOFTWARE\Cygnus Solutions\Cygwin\mounts v2
+  (default) = '/cygdrive'
+  cygdrive flags = 0x00000022
+HKEY_LOCAL_MACHINE\SOFTWARE\Cygnus Solutions\Cygwin\mounts v2\/
+  (default) = 'C:\cygwin'
+  flags = 0x0000000a
+HKEY_LOCAL_MACHINE\SOFTWARE\Cygnus Solutions\Cygwin\mounts v2\/usr/bin
+  (default) = 'C:\cygwin/bin'
+  flags = 0x0000000a
+HKEY_LOCAL_MACHINE\SOFTWARE\Cygnus Solutions\Cygwin\mounts v2\/usr/lib
+  (default) = 'C:\cygwin/lib'
+  flags = 0x0000000a
+HKEY_LOCAL_MACHINE\SOFTWARE\Cygnus Solutions\Cygwin\Program Options
+
+c:  hd  NTFS    110478Mb  59% CP CS UN PA FC     ACER
+e:  cd  UDF       7443Mb 100%    CS UN           MUSIC_MAN_16X9LB_DUAL_LAYER
+
+C:\cygwin      /          system  binmode
+C:\cygwin/bin  /usr/bin   system  binmode
+C:\cygwin/lib  /usr/lib   system  binmode
+.              /cygdrive  system  binmode,cygdrive
+
+Found: C:\cygwin\bin\awk.exe
+Found: C:\cygwin\bin\bash.exe
+Found: C:\cygwin\bin\cat.exe
+Found: C:\cygwin\bin\cp.exe
+Found: C:\cygwin\bin\cpp.exe
+Found: C:\cygwin\bin\crontab.exe
+Found: C:\cygwin\bin\find.exe
+Found: C:\cygwin\bin\gcc.exe
+Found: C:\cygwin\bin\gdb.exe
+Found: C:\cygwin\bin\grep.exe
+Found: C:\cygwin\bin\kill.exe
+Found: C:\cygwin\bin\ld.exe
+Found: C:\cygwin\bin\ls.exe
+Found: C:\cygwin\bin\make.exe
+Found: C:\cygwin\bin\mv.exe
+Found: C:\cygwin\bin\patch.exe
+Found: C:\cygwin\bin\perl.exe
+Found: C:\cygwin\bin\rm.exe
+Found: C:\cygwin\bin\sed.exe
+Found: C:\cygwin\bin\ssh.exe
+Found: C:\cygwin\bin\sh.exe
+Found: C:\cygwin\bin\tar.exe
+Found: C:\cygwin\bin\test.exe
+Not Found: vi
+Found: C:\cygwin\bin\vim.exe
+
+ 1265k 2005/07/03 C:\cygwin\tmp\cygwin1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygwin1.dll" v0.0 ts=2005/7/2 17:30
+    Cygwin DLL version info:
+        DLL version: 1.5.18
+        DLL epoch: 19
+        DLL bad signal mask: 19005
+        DLL old termios: 5
+        DLL malloc env: 28
+        API major: 0
+        API minor: 132
+        Shared data: 4
+        DLL identifier: cygwin1
+        Mount registry: 2
+        Cygnus registry name: Cygnus Solutions
+        Cygwin registry name: Cygwin
+        Program options name: Program Options
+        Cygwin mount registry name: mounts v2
+        Cygdrive flags: cygdrive flags
+        Cygdrive prefix: cygdrive prefix
+        Cygdrive default prefix: 
+        Build date: Sat Jul 2 20:30:04 EDT 2005
+        Shared id: cygwin1S4
+
+   80k 2006/02/20 C:\cygwin\bin\cygaa-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygaa-1.dll" v0.0 ts=2006/2/20 13:16
+   25k 2005/08/15 C:\cygwin\bin\cygao-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygao-2.dll" v0.0 ts=2005/8/15 2:22
+   91k 2005/11/11 C:\cygwin\bin\cygapr-0-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygapr-0-0.dll" v0.0 ts=2005/11/11 7:03
+   67k 2005/11/11 C:\cygwin\bin\cygaprutil-0-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygaprutil-0-0.dll" v0.0 ts=2005/11/11 8:55
+   52k 2005/11/10 C:\cygwin\bin\cygart_lgpl-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygart_lgpl-2.dll" v0.0 ts=2005/11/10 12:33
+   76k 2005/07/30 C:\cygwin\bin\cygart_lgpl_2-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygart_lgpl_2-2.dll" v0.0 ts=2005/7/30 3:46
+  802k 2003/09/15 C:\cygwin\bin\cygaspell-15.dll - os=4.0 img=1.0 sys=4.0
+                  "cygaspell-15.dll" v0.0 ts=2003/9/15 5:32
+  113k 2005/07/16 C:\cygwin\bin\cygatk-1.0-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygatk-1.0-0.dll" v0.0 ts=2005/7/15 12:37
+  145k 2004/09/02 C:\cygwin\bin\cygaudiofile-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygaudiofile-0.dll" v0.0 ts=2004/9/1 20:38
+  326k 2005/09/28 C:\cygwin\bin\cygbonobo-2-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygbonobo-2-0.dll" v0.0 ts=2005/9/28 13:27
+   67k 2005/09/28 C:\cygwin\bin\cygbonobo-activation-4.dll - os=4.0 img=1.0 sys=4.0
+                  "cygbonobo-activation-4.dll" v0.0 ts=2005/9/28 12:35
+  334k 2005/09/27 C:\cygwin\bin\cygbonoboui-2-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygbonoboui-2-0.dll" v0.0 ts=2005/9/27 14:26
+   56k 2005/07/09 C:\cygwin\bin\cygbz2-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygbz2-1.dll" v0.0 ts=2005/7/8 22:09
+   54k 2002/01/27 C:\cygwin\bin\cygbz21.0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygbz21.0.dll" v0.0 ts=2002/1/26 17:07
+  317k 2005/10/07 C:\cygwin\bin\cygcairo-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygcairo-2.dll" v0.0 ts=2005/10/7 14:49
+    7k 2005/11/20 C:\cygwin\bin\cygcharset-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygcharset-1.dll" v0.0 ts=2005/11/19 18:24
+  251k 2005/11/06 C:\cygwin\bin\cygclamav-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygclamav-1.dll" v0.0 ts=2005/11/6 6:37
+   16k 2005/10/11 C:\cygwin\bin\cygcompface-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygcompface-0.dll" v0.0 ts=2005/10/11 6:58
+  529k 2004/06/27 C:\cygwin\bin\cygcppunit-1-9-14.dll - os=4.0 img=1.0 sys=4.0
+                  "cygcppunit-1-9-14.dll" v0.0 ts=2004/6/26 18:29
+  260k 2004/10/26 C:\cygwin\bin\cygcroco-0.6-3.dll - os=4.0 img=1.0 sys=4.0
+                  "cygcroco-0.6-3.dll" v0.0 ts=2004/10/26 15:09
+    7k 2003/10/19 C:\cygwin\bin\cygcrypt-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygcrypt-0.dll" v0.0 ts=2003/10/19 0:57
+ 1108k 2005/10/17 C:\cygwin\bin\cygcrypto-0.9.7.dll - os=4.0 img=1.0 sys=4.0
+                  "cygcrypto-0.9.7.dll" v0.0 ts=2005/10/17 2:16
+ 1047k 2005/10/11 C:\cygwin\bin\cygcrypto-0.9.8.dll - os=4.0 img=1.0 sys=4.0
+                  "cygcrypto-0.9.8.dll" v0.0 ts=2005/10/11 5:47
+  152k 2005/11/23 C:\cygwin\bin\cygcurl-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygcurl-2.dll" v0.0 ts=2005/11/23 13:12
+  182k 2005/12/07 C:\cygwin\bin\cygcurl-3.dll - os=4.0 img=1.0 sys=4.0
+                  "cygcurl-3.dll" v0.0 ts=2005/12/6 16:03
+  380k 2002/07/24 C:\cygwin\bin\cygdb-3.1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygdb-3.1.dll" v0.0 ts=2002/7/24 9:24
+  831k 2003/09/20 C:\cygwin\bin\cygdb-4.1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygdb-4.1.dll" v0.0 ts=2003/9/20 14:51
+  895k 2004/04/28 C:\cygwin\bin\cygdb-4.2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygdb-4.2.dll" v0.0 ts=2004/4/27 8:31
+  965k 2005/05/14 C:\cygwin\bin\cygdb-4.3.dll - os=4.0 img=1.0 sys=4.0
+                  "cygdb-4.3.dll" v0.0 ts=2005/5/14 5:37
+  326k 2002/06/26 C:\cygwin\bin\cygdb2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygdb2.dll" v0.0 ts=2002/6/26 10:48
+  487k 2002/07/24 C:\cygwin\bin\cygdb_cxx-3.1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygdb_cxx-3.1.dll" v0.0 ts=2002/7/24 9:25
+ 1080k 2003/09/20 C:\cygwin\bin\cygdb_cxx-4.1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygdb_cxx-4.1.dll" v0.0 ts=2003/9/20 14:53
+ 1156k 2004/04/28 C:\cygwin\bin\cygdb_cxx-4.2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygdb_cxx-4.2.dll" v0.0 ts=2004/4/27 8:35
+ 1240k 2005/05/14 C:\cygwin\bin\cygdb_cxx-4.3.dll - os=4.0 img=1.0 sys=4.0
+                  "cygdb_cxx-4.3.dll" v0.0 ts=2005/5/14 5:41
+  507k 2005/10/10 C:\cygwin\bin\cygEMF-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygEMF-1.dll" v0.0 ts=2005/10/9 22:11
+   27k 2005/08/21 C:\cygwin\bin\cygesd-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygesd-0.dll" v0.0 ts=2005/8/21 16:04
+   94k 2004/06/07 C:\cygwin\bin\cygexif-10.dll - os=4.0 img=1.0 sys=4.0
+                  "cygexif-10.dll" v0.0 ts=2004/6/7 1:53
+  107k 2005/08/08 C:\cygwin\bin\cygexif-12.dll - os=4.0 img=1.0 sys=4.0
+                  "cygexif-12.dll" v0.0 ts=2005/8/8 4:50
+  174k 2004/10/14 C:\cygwin\bin\cygexpat-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygexpat-0.dll" v0.0 ts=2004/10/14 1:34
+   72k 2005/12/10 C:\cygwin\bin\cygexslt-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygexslt-0.dll" v0.0 ts=2005/12/9 16:45
+  509k 2006/01/11 C:\cygwin\bin\cygfftw3-3.dll - os=4.0 img=1.0 sys=4.0
+                  "cygfftw3-3.dll" v0.0 ts=2006/1/10 18:24
+   69k 2006/01/11 C:\cygwin\bin\cygfftw3_threads-3.dll - os=4.0 img=1.0 sys=4.0
+                  "cygfftw3_threads-3.dll" v0.0 ts=2006/1/11 5:27
+  214k 2005/08/13 C:\cygwin\bin\cygFLAC++-5.dll - os=4.0 img=1.0 sys=4.0
+                  "cygFLAC++-5.dll" v0.0 ts=2005/8/13 1:09
+  274k 2005/08/13 C:\cygwin\bin\cygFLAC-7.dll - os=4.0 img=1.0 sys=4.0
+                  "cygFLAC-7.dll" v0.0 ts=2005/8/13 1:04
+  654k 2003/11/04 C:\cygwin\bin\cygfltknox-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygfltknox-0.dll" v0.0 ts=2003/11/4 13:57
+   65k 2003/11/04 C:\cygwin\bin\cygfltknox_forms-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygfltknox_forms-0.dll" v0.0 ts=2003/11/4 13:57
+   81k 2003/11/04 C:\cygwin\bin\cygfltknox_gl-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygfltknox_gl-0.dll" v0.0 ts=2003/11/4 13:58
+  108k 2003/11/04 C:\cygwin\bin\cygfltknox_images-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygfltknox_images-0.dll" v0.0 ts=2003/11/4 13:58
+  129k 2004/03/11 C:\cygwin\bin\cygfontconfig-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygfontconfig-1.dll" v0.0 ts=2004/3/10 16:12
+   40k 2005/09/29 C:\cygwin\bin\cygform-8.dll - os=4.0 img=1.0 sys=4.0
+                  "cygform-8.dll" v0.0 ts=2005/9/28 19:15
+   45k 2001/04/25 C:\cygwin\bin\cygform5.dll - os=4.0 img=1.0 sys=4.0
+                  "cygform5.dll" v0.0 ts=2001/4/24 22:28
+   35k 2002/01/09 C:\cygwin\bin\cygform6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygform6.dll" v0.0 ts=2002/1/8 22:03
+   48k 2003/08/09 C:\cygwin\bin\cygform7.dll - os=4.0 img=1.0 sys=4.0
+                  "cygform7.dll" v0.0 ts=2003/8/9 2:25
+  859k 2005/08/08 C:\cygwin\bin\cygfpx-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygfpx-1.dll" v0.0 ts=2005/8/8 14:35
+  375k 2005/09/06 C:\cygwin\bin\cygfreetype-6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygfreetype-6.dll" v0.0 ts=2005/9/6 15:51
+   23k 2005/11/30 C:\cygwin\bin\cyggailutil-17.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggailutil-17.dll" v0.0 ts=2005/11/30 13:11
+  178k 2005/09/28 C:\cygwin\bin\cyggconf-2-4.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggconf-2-4.dll" v0.0 ts=2005/9/28 13:21
+  323k 2005/07/10 C:\cygwin\bin\cyggcrypt-11.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggcrypt-11.dll" v0.0 ts=2005/7/9 17:10
+  222k 2005/01/13 C:\cygwin\bin\cyggd-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggd-2.dll" v0.0 ts=2005/1/13 7:56
+   28k 2003/07/20 C:\cygwin\bin\cyggdbm-3.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggdbm-3.dll" v0.0 ts=2003/7/20 0:58
+   30k 2003/08/11 C:\cygwin\bin\cyggdbm-4.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggdbm-4.dll" v0.0 ts=2003/8/10 19:12
+   19k 2003/03/22 C:\cygwin\bin\cyggdbm.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggdbm.dll" v0.0 ts=2002/2/19 19:05
+   15k 2003/07/20 C:\cygwin\bin\cyggdbm_compat-3.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggdbm_compat-3.dll" v0.0 ts=2003/7/20 1:00
+   15k 2003/08/11 C:\cygwin\bin\cyggdbm_compat-4.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggdbm_compat-4.dll" v0.0 ts=2003/8/10 19:13
+  195k 2004/09/02 C:\cygwin\bin\cyggdk-1-2-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggdk-1-2-0.dll" v0.0 ts=2004/9/2 11:31
+  451k 2005/12/27 C:\cygwin\bin\cyggdk-x11-2.0-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggdk-x11-2.0-0.dll" v0.0 ts=2005/12/26 3:20
+  128k 2005/08/02 C:\cygwin\bin\cyggdk_imlib-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggdk_imlib-1.dll" v0.0 ts=2005/8/1 17:36
+   77k 2005/12/27 C:\cygwin\bin\cyggdk_pixbuf-2.0-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggdk_pixbuf-2.0-0.dll" v0.0 ts=2005/12/26 3:11
+   72k 2005/11/16 C:\cygwin\bin\cyggdk_pixbuf-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggdk_pixbuf-2.dll" v0.0 ts=2005/11/16 13:40
+   54k 2005/12/27 C:\cygwin\bin\cyggdk_pixbuf_xlib-2.0-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggdk_pixbuf_xlib-2.0-0.dll" v0.0 ts=2005/12/26 4:03
+  105k 2005/11/16 C:\cygwin\bin\cyggdk_pixbuf_xlib-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggdk_pixbuf_xlib-2.dll" v0.0 ts=2005/11/16 13:41
+   23k 2006/02/14 C:\cygwin\bin\cygGeoIP-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygGeoIP-1.dll" v0.0 ts=2006/2/6 13:13
+   21k 2006/02/14 C:\cygwin\bin\cygGeoIPUpdate-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygGeoIPUpdate-0.dll" v0.0 ts=2006/2/13 23:27
+  116k 2004/10/10 C:\cygwin\bin\cyggeotiff-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggeotiff-1.dll" v0.0 ts=2004/10/10 16:55
+   78k 2005/11/20 C:\cygwin\bin\cyggettextlib-0-14-5.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggettextlib-0-14-5.dll" v0.0 ts=2005/11/19 18:11
+   13k 2005/11/20 C:\cygwin\bin\cyggettextpo-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggettextpo-0.dll" v0.0 ts=2005/11/19 18:11
+  163k 2005/11/20 C:\cygwin\bin\cyggettextsrc-0-14-5.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggettextsrc-0-14-5.dll" v0.0 ts=2005/11/19 18:11
+   28k 2006/02/17 C:\cygwin\bin\cyggg-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggg-1.dll" v0.0 ts=2006/2/17 0:42
+   56k 2006/02/21 C:\cygwin\bin\cygggi-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygggi-2.dll" v0.0 ts=2006/2/21 7:39
+    8k 2006/02/20 C:\cygwin\bin\cygggimisc-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygggimisc-2.dll" v0.0 ts=2006/2/20 1:16
+    8k 2006/02/20 C:\cygwin\bin\cygggiwmh-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygggiwmh-0.dll" v0.0 ts=2006/2/20 0:57
+   20k 2006/02/17 C:\cygwin\bin\cyggii-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggii-1.dll" v0.0 ts=2006/2/17 0:44
+   81k 2005/08/18 C:\cygwin\bin\cygglade-2.0-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygglade-2.0-0.dll" v0.0 ts=2005/8/18 11:51
+  135k 2005/03/16 C:\cygwin\bin\cygglib-1-2-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygglib-1-2-0.dll" v0.0 ts=2005/3/15 18:16
+  557k 2006/01/04 C:\cygwin\bin\cygglib-2.0-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygglib-2.0-0.dll" v0.0 ts=2006/1/4 1:48
+  135k 2005/12/11 C:\cygwin\bin\cygglitz-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygglitz-1.dll" v0.0 ts=2005/12/11 12:35
+   19k 2005/12/11 C:\cygwin\bin\cygglitz-glx-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygglitz-glx-1.dll" v0.0 ts=2005/12/11 12:39
+   12k 2005/03/16 C:\cygwin\bin\cyggmodule-1-2-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggmodule-1-2-0.dll" v0.0 ts=2005/3/15 18:18
+   10k 2006/01/04 C:\cygwin\bin\cyggmodule-2.0-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggmodule-2.0-0.dll" v0.0 ts=2006/1/4 1:49
+  158k 2004/10/16 C:\cygwin\bin\cyggmp-3.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggmp-3.dll" v0.0 ts=2004/10/16 0:40
+  288k 2004/10/16 C:\cygwin\bin\cyggmpxx-3.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggmpxx-3.dll" v0.0 ts=2004/10/16 0:40
+   68k 2005/12/01 C:\cygwin\bin\cyggnome-2-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggnome-2-0.dll" v0.0 ts=2005/11/30 18:14
+   87k 2005/11/10 C:\cygwin\bin\cyggnome-32.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggnome-32.dll" v0.0 ts=2005/11/10 13:21
+   35k 2006/02/14 C:\cygwin\bin\cyggnome-keyring-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggnome-keyring-0.dll" v0.0 ts=2006/2/14 15:55
+  156k 2005/11/30 C:\cygwin\bin\cyggnomecanvas-2-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggnomecanvas-2-0.dll" v0.0 ts=2005/11/30 14:55
+   12k 2005/11/16 C:\cygwin\bin\cyggnomecanvaspixbuf-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggnomecanvaspixbuf-1.dll" v0.0 ts=2005/11/16 13:41
+  338k 2005/08/22 C:\cygwin\bin\cyggnomeprint-2-2-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggnomeprint-2-2-0.dll" v0.0 ts=2005/8/21 17:20
+  179k 2005/08/22 C:\cygwin\bin\cyggnomeprintui-2-2-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggnomeprintui-2-2-0.dll" v0.0 ts=2005/8/22 12:14
+   18k 2005/11/10 C:\cygwin\bin\cyggnomesupport-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggnomesupport-0.dll" v0.0 ts=2005/11/10 12:30
+  509k 2006/02/07 C:\cygwin\bin\cyggnomeui-2-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggnomeui-2-0.dll" v0.0 ts=2006/2/7 13:57
+  826k 2005/11/10 C:\cygwin\bin\cyggnomeui-32.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggnomeui-32.dll" v0.0 ts=2005/11/10 13:24
+  332k 2005/12/06 C:\cygwin\bin\cyggnomevfs-2-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggnomevfs-2-0.dll" v0.0 ts=2005/12/5 14:01
+   42k 2005/11/10 C:\cygwin\bin\cyggnorba-27.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggnorba-27.dll" v0.0 ts=2005/11/10 13:27
+   22k 2005/11/10 C:\cygwin\bin\cyggnorbagtk-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggnorbagtk-0.dll" v0.0 ts=2005/11/10 13:10
+  382k 2005/08/21 C:\cygwin\bin\cyggnutls-11.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggnutls-11.dll" v0.0 ts=2005/8/21 4:40
+   71k 2005/08/21 C:\cygwin\bin\cyggnutls-extra-11.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggnutls-extra-11.dll" v0.0 ts=2005/8/21 4:42
+   21k 2005/08/21 C:\cygwin\bin\cyggnutls-openssl-11.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggnutls-openssl-11.dll" v0.0 ts=2005/8/21 4:42
+  229k 2006/01/04 C:\cygwin\bin\cyggobject-2.0-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggobject-2.0-0.dll" v0.0 ts=2006/1/4 1:49
+   12k 2005/07/09 C:\cygwin\bin\cyggpg-error-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggpg-error-0.dll" v0.0 ts=2005/7/9 15:34
+  351k 2004/07/17 C:\cygwin\bin\cygGraphicsMagick++-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygGraphicsMagick++-0.dll" v0.0 ts=2004/7/17 1:48
+ 2170k 2004/07/17 C:\cygwin\bin\cygGraphicsMagick-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygGraphicsMagick-0.dll" v0.0 ts=2004/7/17 1:46
+ 1426k 2005/10/01 C:\cygwin\bin\cyggsl-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggsl-0.dll" v0.0 ts=2005/10/1 10:11
+  186k 2005/10/01 C:\cygwin\bin\cyggslcblas-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggslcblas-0.dll" v0.0 ts=2005/10/1 9:49
+   10k 2005/03/16 C:\cygwin\bin\cyggthread-1-2-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggthread-1-2-0.dll" v0.0 ts=2005/3/15 18:18
+   14k 2006/01/04 C:\cygwin\bin\cyggthread-2.0-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggthread-2.0-0.dll" v0.0 ts=2006/1/4 1:50
+ 1293k 2004/09/02 C:\cygwin\bin\cyggtk-1-2-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggtk-1-2-0.dll" v0.0 ts=2004/9/2 11:44
+ 2764k 2005/12/27 C:\cygwin\bin\cyggtk-x11-2.0-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggtk-x11-2.0-0.dll" v0.0 ts=2005/12/26 3:43
+  340k 2006/02/15 C:\cygwin\bin\cyggtkhtml-2-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggtkhtml-2-0.dll" v0.0 ts=2006/2/14 18:56
+  338k 2005/11/10 C:\cygwin\bin\cyggtkxmhtml-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cyggtkxmhtml-1.dll" v0.0 ts=2005/11/10 13:04
+  528k 2005/10/09 C:\cygwin\bin\cygguile-12.dll - os=4.0 img=1.0 sys=4.0
+                  "cygguile-12.dll" v0.0 ts=2005/10/9 6:25
+   18k 2005/10/09 C:\cygwin\bin\cygguile-ltdl-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygguile-ltdl-1.dll" v0.0 ts=2005/10/9 6:24
+   68k 2005/10/09 C:\cygwin\bin\cygguile-srfi-srfi-13-14-v-1-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygguile-srfi-srfi-13-14-v-1-1.dll" v0.0 ts=2005/10/9 6:25
+   31k 2005/10/09 C:\cygwin\bin\cygguile-srfi-srfi-4-v-1-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygguile-srfi-srfi-4-v-1-1.dll" v0.0 ts=2005/10/9 6:25
+   12k 2005/10/09 C:\cygwin\bin\cygguilereadline-v-12-12.dll - os=4.0 img=1.0 sys=4.0
+                  "cygguilereadline-v-12-12.dll" v0.0 ts=2005/10/9 6:25
+   17k 2001/06/28 C:\cygwin\bin\cyghistory4.dll - os=4.0 img=1.0 sys=4.0
+                  "cyghistory4.dll" v0.0 ts=2001/1/6 20:34
+   29k 2003/08/10 C:\cygwin\bin\cyghistory5.dll - os=4.0 img=1.0 sys=4.0
+                  "cyghistory5.dll" v0.0 ts=2003/8/10 16:16
+   24k 2006/02/18 C:\cygwin\bin\cyghistory6.dll - os=4.0 img=1.0 sys=4.0
+                  "cyghistory6.dll" v0.0 ts=2006/2/17 22:03
+  313k 2006/01/24 C:\cygwin\bin\cyghttpd2core.dll - os=4.0 img=1.0 sys=4.0
+                  "cyghttpd2core.dll" v0.0 ts=2006/1/24 15:25
+  947k 2005/11/20 C:\cygwin\bin\cygiconv-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygiconv-2.dll" v0.0 ts=2005/11/19 18:24
+  136k 2005/08/01 C:\cygwin\bin\cygIDL-0-6-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygIDL-0-6-0.dll" v0.0 ts=2005/8/1 12:50
+  142k 2005/08/01 C:\cygwin\bin\cygIDL-2-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygIDL-2-0.dll" v0.0 ts=2005/8/1 14:33
+   40k 2005/08/01 C:\cygwin\bin\cygIIOP-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygIIOP-0.dll" v0.0 ts=2005/8/1 13:28
+  155k 2005/08/02 C:\cygwin\bin\cygImlib-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygImlib-1.dll" v0.0 ts=2005/8/1 17:37
+    9k 2005/08/02 C:\cygwin\bin\cygimlib-bmp.dll - os=4.0 img=1.0 sys=4.0
+                  "cygimlib-bmp.dll" v0.0 ts=2005/8/1 17:38
+    6k 2005/08/02 C:\cygwin\bin\cygimlib-gif.dll - os=4.0 img=1.0 sys=4.0
+                  "cygimlib-gif.dll" v0.0 ts=2005/8/1 17:38
+    7k 2005/08/02 C:\cygwin\bin\cygimlib-jpeg.dll - os=4.0 img=1.0 sys=4.0
+                  "cygimlib-jpeg.dll" v0.0 ts=2005/8/1 17:38
+   11k 2005/08/02 C:\cygwin\bin\cygimlib-png.dll - os=4.0 img=1.0 sys=4.0
+                  "cygimlib-png.dll" v0.0 ts=2005/8/1 17:39
+    8k 2005/08/02 C:\cygwin\bin\cygimlib-ppm.dll - os=4.0 img=1.0 sys=4.0
+                  "cygimlib-ppm.dll" v0.0 ts=2005/8/1 17:38
+    7k 2005/08/02 C:\cygwin\bin\cygimlib-ps.dll - os=4.0 img=1.0 sys=4.0
+                  "cygimlib-ps.dll" v0.0 ts=2005/8/1 17:38
+    6k 2005/08/02 C:\cygwin\bin\cygimlib-tiff.dll - os=4.0 img=1.0 sys=4.0
+                  "cygimlib-tiff.dll" v0.0 ts=2005/8/1 17:39
+   10k 2005/08/02 C:\cygwin\bin\cygimlib-xpm.dll - os=4.0 img=1.0 sys=4.0
+                  "cygimlib-xpm.dll" v0.0 ts=2005/8/1 17:38
+   22k 2001/12/13 C:\cygwin\bin\cygintl-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygintl-1.dll" v0.0 ts=2001/12/13 1:28
+   37k 2003/08/10 C:\cygwin\bin\cygintl-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygintl-2.dll" v0.0 ts=2003/8/10 14:50
+   31k 2005/11/20 C:\cygwin\bin\cygintl-3.dll - os=4.0 img=1.0 sys=4.0
+                  "cygintl-3.dll" v0.0 ts=2005/11/19 18:04
+   21k 2001/06/20 C:\cygwin\bin\cygintl.dll - os=4.0 img=1.0 sys=4.0
+                  "cygintl.dll" v0.0 ts=2001/6/20 10:09
+   12k 2003/02/17 C:\cygwin\bin\cygioperm-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygioperm-0.dll" v0.0 ts=2003/2/17 11:58
+  241k 2004/08/06 C:\cygwin\bin\cygjasper-1-701-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygjasper-1-701-1.dll" v0.0 ts=2004/8/6 8:17
+   48k 2003/08/10 C:\cygwin\bin\cygjbig1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygjbig1.dll" v0.0 ts=2003/8/10 16:58
+  132k 2003/08/11 C:\cygwin\bin\cygjpeg-62.dll - os=4.0 img=1.0 sys=4.0
+                  "cygjpeg-62.dll" v0.0 ts=2003/8/10 17:37
+  119k 2002/02/09 C:\cygwin\bin\cygjpeg6b.dll - os=4.0 img=1.0 sys=4.0
+                  "cygjpeg6b.dll" v0.0 ts=2002/2/8 21:19
+   60k 2004/09/27 C:\cygwin\bin\cygkpathsea-3.dll - os=4.0 img=1.0 sys=4.0
+                  "cygkpathsea-3.dll" v0.0 ts=2004/9/27 10:32
+   65k 2005/05/05 C:\cygwin\bin\cygkpathsea-4.dll - os=4.0 img=1.0 sys=4.0
+                  "cygkpathsea-4.dll" v0.0 ts=2005/5/5 7:33
+   41k 2005/08/29 C:\cygwin\bin\cyglber-2-2-7.dll - os=4.0 img=1.0 sys=4.0
+                  "cyglber-2-2-7.dll" v0.0 ts=2005/8/14 10:48
+   40k 2004/01/02 C:\cygwin\bin\cyglber-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cyglber-2.dll" v0.0 ts=2004/1/2 3:11
+  156k 2005/08/08 C:\cygwin\bin\cyglcms-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cyglcms-1.dll" v0.0 ts=2005/8/8 3:15
+  176k 2005/08/29 C:\cygwin\bin\cygldap-2-2-7.dll - os=4.0 img=1.0 sys=4.0
+                  "cygldap-2-2-7.dll" v0.0 ts=2005/8/29 4:14
+  194k 2004/01/02 C:\cygwin\bin\cygldap-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygldap-2.dll" v0.0 ts=2004/1/2 3:27
+  188k 2005/08/29 C:\cygwin\bin\cygldap_r-2-2-7.dll - os=4.0 img=1.0 sys=4.0
+                  "cygldap_r-2-2-7.dll" v0.0 ts=2005/8/29 4:14
+  202k 2004/01/02 C:\cygwin\bin\cygldap_r-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygldap_r-2.dll" v0.0 ts=2004/1/2 3:27
+   68k 2006/01/21 C:\cygwin\bin\cyglightcomp.dll - os=4.0 img=1.0 sys=4.0
+                  "cyglightcomp.dll" v0.0 ts=2006/1/21 2:42
+   24k 2005/09/06 C:\cygwin\bin\cygltdl-3.dll - os=4.0 img=1.0 sys=4.0
+                  "cygltdl-3.dll" v0.0 ts=2005/9/5 20:20
+   48k 2005/11/19 C:\cygwin\bin\cygmagic-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygmagic-1.dll" v0.0 ts=2005/11/19 3:22
+  369k 2004/08/11 C:\cygwin\bin\cygMagick++-6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygMagick++-6.dll" v0.0 ts=2004/8/10 23:04
+ 3214k 2004/08/11 C:\cygwin\bin\cygMagick-6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygMagick-6.dll" v0.0 ts=2004/8/10 22:37
+  181k 2003/10/06 C:\cygwin\bin\cygmcrypt-4.dll - os=4.0 img=1.0 sys=4.0
+                  "cygmcrypt-4.dll" v0.0 ts=2003/10/6 7:54
+   21k 2005/09/29 C:\cygwin\bin\cygmenu-8.dll - os=4.0 img=1.0 sys=4.0
+                  "cygmenu-8.dll" v0.0 ts=2005/9/28 19:15
+   26k 2001/04/25 C:\cygwin\bin\cygmenu5.dll - os=4.0 img=1.0 sys=4.0
+                  "cygmenu5.dll" v0.0 ts=2001/4/24 22:27
+   20k 2002/01/09 C:\cygwin\bin\cygmenu6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygmenu6.dll" v0.0 ts=2002/1/8 22:03
+   29k 2003/08/09 C:\cygwin\bin\cygmenu7.dll - os=4.0 img=1.0 sys=4.0
+                  "cygmenu7.dll" v0.0 ts=2003/8/9 2:25
+  222k 2005/05/28 C:\cygwin\bin\cygmhash-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygmhash-2.dll" v0.0 ts=2005/5/28 2:40
+   21k 2004/10/22 C:\cygwin\bin\cygminires.dll - os=4.0 img=1.0 sys=4.0
+                  "cygminires.dll" v0.0 ts=2004/10/22 13:28
+  330k 2005/08/08 C:\cygwin\bin\cygmng-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygmng-1.dll" v0.0 ts=2005/8/8 14:17
+   71k 2004/10/16 C:\cygwin\bin\cygmp-3.dll - os=4.0 img=1.0 sys=4.0
+                  "cygmp-3.dll" v0.0 ts=2004/10/16 0:40
+   95k 2004/10/16 C:\cygwin\bin\cygmpfr-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygmpfr-0.dll" v0.0 ts=2004/10/16 0:47
+  401k 2005/12/19 C:\cygwin\bin\cygnaim_core-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygnaim_core-0.dll" v0.0 ts=2005/12/18 21:10
+   67k 2005/09/29 C:\cygwin\bin\cygncurses++-8.dll - os=4.0 img=1.0 sys=4.0
+                  "cygncurses++-8.dll" v0.0 ts=2005/9/28 19:16
+  156k 2001/04/25 C:\cygwin\bin\cygncurses++5.dll - os=4.0 img=1.0 sys=4.0
+                  "cygncurses++5.dll" v0.0 ts=2001/4/24 22:29
+  175k 2002/01/09 C:\cygwin\bin\cygncurses++6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygncurses++6.dll" v0.0 ts=2002/1/8 22:03
+  226k 2005/09/29 C:\cygwin\bin\cygncurses-8.dll - os=4.0 img=1.0 sys=4.0
+                  "cygncurses-8.dll" v0.0 ts=2005/9/28 19:02
+  226k 2001/04/25 C:\cygwin\bin\cygncurses5.dll - os=4.0 img=1.0 sys=4.0
+                  "cygncurses5.dll" v0.0 ts=2001/4/24 22:17
+  202k 2002/01/09 C:\cygwin\bin\cygncurses6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygncurses6.dll" v0.0 ts=2002/1/8 22:03
+  224k 2003/08/09 C:\cygwin\bin\cygncurses7.dll - os=4.0 img=1.0 sys=4.0
+                  "cygncurses7.dll" v0.0 ts=2003/8/9 2:24
+   91k 2005/11/24 C:\cygwin\bin\cygneon-24.dll - os=4.0 img=1.0 sys=4.0
+                  "cygneon-24.dll" v0.0 ts=2005/11/24 4:21
+   90k 2006/01/25 C:\cygwin\bin\cygneon-25.dll - os=4.0 img=1.0 sys=4.0
+                  "cygneon-25.dll" v0.0 ts=2006/1/25 3:02
+  147k 2005/10/23 C:\cygwin\bin\cygnetpbm-10.dll - os=4.0 img=1.0 sys=4.0
+                  "cygnetpbm-10.dll" v0.0 ts=2005/10/23 13:04
+   23k 2005/08/12 C:\cygwin\bin\cygogg-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygogg-0.dll" v0.0 ts=2005/8/12 15:39
+  150k 2005/08/13 C:\cygwin\bin\cygOggFLAC++-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygOggFLAC++-2.dll" v0.0 ts=2005/8/13 1:09
+  107k 2005/08/13 C:\cygwin\bin\cygOggFLAC-3.dll - os=4.0 img=1.0 sys=4.0
+                  "cygOggFLAC-3.dll" v0.0 ts=2005/8/13 1:09
+   49k 2004/08/02 C:\cygwin\bin\cygogrove-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygogrove-0.dll" v0.0 ts=2004/8/2 8:41
+  131k 2005/08/21 C:\cygwin\bin\cygopencdk-8.dll - os=4.0 img=1.0 sys=4.0
+                  "cygopencdk-8.dll" v0.0 ts=2005/8/21 8:35
+  217k 2005/08/01 C:\cygwin\bin\cygORBit-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygORBit-0.dll" v0.0 ts=2005/8/1 13:29
+  287k 2005/08/17 C:\cygwin\bin\cygORBit-2-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygORBit-2-0.dll" v0.0 ts=2005/8/17 14:45
+   36k 2005/08/17 C:\cygwin\bin\cygORBit-imodule-2-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygORBit-imodule-2-0.dll" v0.0 ts=2005/8/17 15:11
+   28k 2005/08/01 C:\cygwin\bin\cygORBitCosNaming-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygORBitCosNaming-0.dll" v0.0 ts=2005/8/1 13:29
+   16k 2005/08/17 C:\cygwin\bin\cygORBitCosNaming-2-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygORBitCosNaming-2-0.dll" v0.0 ts=2005/8/17 15:11
+    5k 2005/08/01 C:\cygwin\bin\cygORBitutil-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygORBitutil-0.dll" v0.0 ts=2005/8/1 12:51
+ 1706k 2004/08/02 C:\cygwin\bin\cygosp-4.dll - os=4.0 img=1.0 sys=4.0
+                  "cygosp-4.dll" v0.0 ts=2004/8/2 7:51
+  326k 2004/08/02 C:\cygwin\bin\cygospgrove-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygospgrove-0.dll" v0.0 ts=2004/8/2 9:07
+ 1922k 2004/08/02 C:\cygwin\bin\cygostyle-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygostyle-0.dll" v0.0 ts=2004/8/2 9:07
+   11k 2005/09/29 C:\cygwin\bin\cygpanel-8.dll - os=4.0 img=1.0 sys=4.0
+                  "cygpanel-8.dll" v0.0 ts=2005/9/28 19:15
+   15k 2001/04/25 C:\cygwin\bin\cygpanel5.dll - os=4.0 img=1.0 sys=4.0
+                  "cygpanel5.dll" v0.0 ts=2001/4/24 22:27
+   12k 2002/01/09 C:\cygwin\bin\cygpanel6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygpanel6.dll" v0.0 ts=2002/1/8 22:03
+   19k 2003/08/09 C:\cygwin\bin\cygpanel7.dll - os=4.0 img=1.0 sys=4.0
+                  "cygpanel7.dll" v0.0 ts=2003/8/9 2:24
+  198k 2005/07/18 C:\cygwin\bin\cygpango-1.0-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygpango-1.0-0.dll" v0.0 ts=2005/7/18 4:26
+  134k 2005/07/18 C:\cygwin\bin\cygpangoft2-1.0-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygpangoft2-1.0-0.dll" v0.0 ts=2005/7/18 4:28
+   33k 2005/07/18 C:\cygwin\bin\cygpangowin32-1.0-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygpangowin32-1.0-0.dll" v0.0 ts=2005/7/18 4:29
+   36k 2005/07/18 C:\cygwin\bin\cygpangox-1.0-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygpangox-1.0-0.dll" v0.0 ts=2005/7/18 4:27
+   22k 2005/07/18 C:\cygwin\bin\cygpangoxft-1.0-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygpangoxft-1.0-0.dll" v0.0 ts=2005/7/18 4:29
+  176k 2005/09/06 C:\cygwin\bin\cygpcre-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygpcre-0.dll" v0.0 ts=2005/9/6 13:49
+  299k 2005/09/06 C:\cygwin\bin\cygpcrecpp-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygpcrecpp-0.dll" v0.0 ts=2005/9/6 14:26
+    6k 2005/09/06 C:\cygwin\bin\cygpcreposix-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygpcreposix-0.dll" v0.0 ts=2005/9/6 14:26
+ 1249k 2005/12/30 C:\cygwin\bin\cygperl5_8.dll - os=4.0 img=1.0 sys=4.0
+                  "cygperl5_8.dll" v0.0 ts=2005/12/29 17:48
+ 1063k 2005/10/13 C:\cygwin\bin\cygplot-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygplot-2.dll" v0.0 ts=2005/10/13 7:30
+ 1229k 2005/10/13 C:\cygwin\bin\cygplotter-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygplotter-2.dll" v0.0 ts=2005/10/13 8:22
+  224k 2005/07/11 C:\cygwin\bin\cygpng10.dll - os=4.0 img=1.0 sys=4.0
+                  "cygpng10.dll" v0.0 ts=2005/7/11 16:45
+  230k 2005/07/11 C:\cygwin\bin\cygpng12.dll - os=4.0 img=1.0 sys=4.0
+                  "cygpng12.dll" v0.0 ts=2005/7/11 16:50
+  170k 2002/01/21 C:\cygwin\bin\cygpng2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygpng2.dll" v0.0 ts=2002/1/20 17:05
+   22k 2002/06/09 C:\cygwin\bin\cygpopt-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygpopt-0.dll" v0.0 ts=2002/6/8 22:45
+   94k 2005/11/08 C:\cygwin\bin\cygpq.dll - os=4.0 img=1.0 sys=4.0
+                  "cygpq.dll" v0.0 ts=2005/11/7 17:04
+  575k 2004/10/10 C:\cygwin\bin\cygproj-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygproj-0.dll" v0.0 ts=2004/10/10 15:57
+  514k 2005/10/14 C:\cygwin\bin\cygpstoedit-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygpstoedit-0.dll" v0.0 ts=2005/10/14 8:05
+ 6018k 2005/08/11 C:\cygwin\bin\cygqt-mt-3.dll - os=4.0 img=1.0 sys=4.0
+                  "cygqt-mt-3.dll" v0.0 ts=2005/8/11 15:06
+  202k 2005/08/11 C:\cygwin\bin\cygqui-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygqui-1.dll" v0.0 ts=2005/8/11 15:13
+  108k 2001/06/28 C:\cygwin\bin\cygreadline4.dll - os=4.0 img=1.0 sys=4.0
+                  "cygreadline4.dll" v0.0 ts=2001/1/6 20:34
+  148k 2003/08/10 C:\cygwin\bin\cygreadline5.dll - os=4.0 img=1.0 sys=4.0
+                  "cygreadline5.dll" v0.0 ts=2003/8/10 16:16
+  152k 2006/02/18 C:\cygwin\bin\cygreadline6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygreadline6.dll" v0.0 ts=2006/2/17 22:03
+  704k 2006/01/20 C:\cygwin\bin\cygruby18.dll - os=4.0 img=1.0 sys=4.0
+                  "cygruby18.dll" v0.0 ts=2006/1/20 2:43
+   78k 2004/10/13 C:\cygwin\bin\cygsasl2-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygsasl2-2.dll" v0.0 ts=2004/10/13 15:50
+  380k 2003/12/13 C:\cygwin\bin\cygsmi-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygsmi-2.dll" v0.0 ts=2003/12/12 16:57
+  129k 2005/08/15 C:\cygwin\bin\cygspeex-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygspeex-1.dll" v0.0 ts=2005/8/15 2:57
+  231k 2005/10/17 C:\cygwin\bin\cygssl-0.9.7.dll - os=4.0 img=1.0 sys=4.0
+                  "cygssl-0.9.7.dll" v0.0 ts=2005/10/17 2:16
+  215k 2005/10/11 C:\cygwin\bin\cygssl-0.9.8.dll - os=4.0 img=1.0 sys=4.0
+                  "cygssl-0.9.8.dll" v0.0 ts=2005/10/11 5:47
+   28k 2004/11/15 C:\cygwin\bin\cygstartup-notification-1-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygstartup-notification-1-0.dll" v0.0 ts=2004/11/14 19:59
+  135k 2005/09/13 C:\cygwin\bin\cygsvn_client-1-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygsvn_client-1-0.dll" v0.0 ts=2005/9/13 14:52
+   27k 2005/09/13 C:\cygwin\bin\cygsvn_delta-1-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygsvn_delta-1-0.dll" v0.0 ts=2005/9/13 14:46
+   22k 2005/09/13 C:\cygwin\bin\cygsvn_diff-1-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygsvn_diff-1-0.dll" v0.0 ts=2005/9/13 14:51
+   15k 2005/09/13 C:\cygwin\bin\cygsvn_fs-1-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygsvn_fs-1-0.dll" v0.0 ts=2005/9/13 14:47
+  127k 2005/09/13 C:\cygwin\bin\cygsvn_fs_base-1-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygsvn_fs_base-1-0.dll" v0.0 ts=2005/9/13 14:47
+   88k 2005/09/13 C:\cygwin\bin\cygsvn_fs_fs-1-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygsvn_fs_fs-1-0.dll" v0.0 ts=2005/9/13 14:46
+    9k 2005/09/13 C:\cygwin\bin\cygsvn_ra-1-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygsvn_ra-1-0.dll" v0.0 ts=2005/9/13 14:52
+   85k 2005/09/13 C:\cygwin\bin\cygsvn_ra_dav-1-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygsvn_ra_dav-1-0.dll" v0.0 ts=2005/9/13 14:51
+   19k 2005/09/13 C:\cygwin\bin\cygsvn_ra_local-1-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygsvn_ra_local-1-0.dll" v0.0 ts=2005/9/13 14:48
+   55k 2005/09/13 C:\cygwin\bin\cygsvn_ra_svn-1-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygsvn_ra_svn-1-0.dll" v0.0 ts=2005/9/13 14:48
+   98k 2005/09/13 C:\cygwin\bin\cygsvn_repos-1-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygsvn_repos-1-0.dll" v0.0 ts=2005/9/13 14:48
+  131k 2005/09/13 C:\cygwin\bin\cygsvn_subr-1-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygsvn_subr-1-0.dll" v0.0 ts=2005/9/13 14:45
+   27k 2005/09/13 C:\cygwin\bin\cygsvn_swig_perl-1-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygsvn_swig_perl-1-0.dll" v0.0 ts=2005/9/13 14:59
+   25k 2005/09/13 C:\cygwin\bin\cygsvn_swig_py-1-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygsvn_swig_py-1-0.dll" v0.0 ts=2005/9/13 14:55
+  146k 2005/09/13 C:\cygwin\bin\cygsvn_wc-1-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygsvn_wc-1-0.dll" v0.0 ts=2005/9/13 14:51
+  228k 2005/08/15 C:\cygwin\bin\cygt1-5.dll - os=4.0 img=1.0 sys=4.0
+                  "cygt1-5.dll" v0.0 ts=2005/8/15 7:44
+   16k 2005/08/15 C:\cygwin\bin\cygt1x-5.dll - os=4.0 img=1.0 sys=4.0
+                  "cygt1x-5.dll" v0.0 ts=2005/8/15 7:45
+   65k 2005/08/21 C:\cygwin\bin\cygtasn1-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygtasn1-2.dll" v0.0 ts=2005/8/21 7:20
+  247k 2004/12/07 C:\cygwin\bin\cygtidy-0-99-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygtidy-0-99-0.dll" v0.0 ts=2004/12/7 6:34
+  304k 2005/07/10 C:\cygwin\bin\cygtiff-5.dll - os=4.0 img=1.0 sys=4.0
+                  "cygtiff-5.dll" v0.0 ts=2005/7/10 16:18
+  281k 2003/02/24 C:\cygwin\bin\cygtiff3.dll - os=4.0 img=1.0 sys=4.0
+                  "cygtiff3.dll" v0.0 ts=2003/2/23 20:58
+  282k 2003/08/11 C:\cygwin\bin\cygtiff4.dll - os=4.0 img=1.0 sys=4.0
+                  "cygtiff4.dll" v0.0 ts=2003/8/10 19:32
+  281k 2005/07/10 C:\cygwin\bin\cygtiffxx-5.dll - os=4.0 img=1.0 sys=4.0
+                  "cygtiffxx-5.dll" v0.0 ts=2005/7/10 16:21
+   27k 2005/10/23 C:\cygwin\bin\cygungif-4.dll - os=4.0 img=1.0 sys=4.0
+                  "cygungif-4.dll" v0.0 ts=2005/10/23 13:11
+  174k 2005/08/14 C:\cygwin\bin\cygvorbis-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygvorbis-0.dll" v0.0 ts=2005/8/14 12:15
+ 1125k 2005/08/14 C:\cygwin\bin\cygvorbisenc-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygvorbisenc-2.dll" v0.0 ts=2005/8/14 12:20
+   42k 2005/08/14 C:\cygwin\bin\cygvorbisfile-3.dll - os=4.0 img=1.0 sys=4.0
+                  "cygvorbisfile-3.dll" v0.0 ts=2005/8/14 12:20
+  154k 2004/08/11 C:\cygwin\bin\cygWand-6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygWand-6.dll" v0.0 ts=2004/8/10 23:04
+  314k 2005/08/10 C:\cygwin\bin\cygwmf-0-2-7.dll - os=4.0 img=1.0 sys=4.0
+                  "cygwmf-0-2-7.dll" v0.0 ts=2005/8/10 6:54
+  150k 2005/08/10 C:\cygwin\bin\cygwmflite-0-2-7.dll - os=4.0 img=1.0 sys=4.0
+                  "cygwmflite-0-2-7.dll" v0.0 ts=2005/8/10 6:53
+  152k 2006/02/08 C:\cygwin\bin\cygwnck-1-18.dll - os=4.0 img=1.0 sys=4.0
+                  "cygwnck-1-18.dll" v0.0 ts=2006/2/7 19:10
+ 2689k 2002/11/16 C:\cygwin\bin\cygxerces-c21.dll - os=4.0 img=1.0 sys=4.0
+                  "cygxerces-c21.dll" v0.0 ts=2002/11/15 20:07
+ 2984k 2003/02/07 C:\cygwin\bin\cygxerces-c22.dll - os=4.0 img=1.0 sys=4.0
+                  "cygxerces-c22.dll" v0.0 ts=2003/2/7 10:50
+ 3006k 2003/10/12 C:\cygwin\bin\cygxerces-c23.dll - os=4.0 img=1.0 sys=4.0
+                  "cygxerces-c23.dll" v0.0 ts=2003/10/11 19:36
+ 3520k 2003/12/16 C:\cygwin\bin\cygxerces-c24.dll - os=4.0 img=1.0 sys=4.0
+                  "cygxerces-c24.dll" v0.0 ts=2003/12/16 11:45
+ 3416k 2004/02/21 C:\cygwin\bin\cygxerces-c25.dll - os=4.0 img=1.0 sys=4.0
+                  "cygxerces-c25.dll" v0.0 ts=2004/2/20 22:49
+   95k 2005/10/13 C:\cygwin\bin\cygxmi-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygxmi-0.dll" v0.0 ts=2005/10/13 7:33
+  408k 2005/08/01 C:\cygwin\bin\cygxml-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygxml-1.dll" v0.0 ts=2005/8/1 12:43
+ 1430k 2005/11/18 C:\cygwin\bin\cygxml2-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygxml2-2.dll" v0.0 ts=2005/11/18 9:48
+   50k 2003/08/09 C:\cygwin\bin\cygXpm-noX4.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXpm-noX4.dll" v0.0 ts=2003/8/9 0:21
+   54k 2003/08/09 C:\cygwin\bin\cygXpm-X4.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXpm-X4.dll" v0.0 ts=2003/8/9 0:22
+  200k 2005/12/10 C:\cygwin\bin\cygxslt-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygxslt-1.dll" v0.0 ts=2005/12/9 16:43
+   65k 2005/08/23 C:\cygwin\bin\cygz.dll - os=4.0 img=1.0 sys=4.0
+                  "cygz.dll" v0.0 ts=2005/8/22 19:03
+   78k 2005/11/10 C:\cygwin\bin\cygzvt-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygzvt-2.dll" v0.0 ts=2005/11/10 13:06
+ 1763k 2006/01/20 C:\cygwin\bin\cygwin1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygwin1.dll" v0.0 ts=2006/1/20 10:28
+    Cygwin DLL version info:
+        DLL version: 1.5.19
+        DLL epoch: 19
+        DLL bad signal mask: 19005
+        DLL old termios: 5
+        DLL malloc env: 28
+        API major: 0
+        API minor: 150
+        Shared data: 4
+        DLL identifier: cygwin1
+        Mount registry: 2
+        Cygnus registry name: Cygnus Solutions
+        Cygwin registry name: Cygwin
+        Program options name: Program Options
+        Cygwin mount registry name: mounts v2
+        Cygdrive flags: cygdrive flags
+        Cygdrive prefix: cygdrive prefix
+        Cygdrive default prefix: 
+        Build date: Fri Jan 20 13:28:43 EST 2006
+        CVS tag: cr-0x5ef
+        Shared id: cygwin1S4
+
+  243k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygdps-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygdps-1.dll" v0.0 ts=2005/2/23 6:42
+   26k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygdpstk-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygdpstk-1.dll" v0.0 ts=2005/2/23 6:42
+   28k 2004/03/31 C:\cygwin\usr\X11R6\bin\cygDtPrint-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygDtPrint-1.dll" v0.0 ts=2004/3/30 20:23
+   21k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygfontenc-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygfontenc-1.dll" v0.0 ts=2005/2/23 6:45
+  282k 2003/10/28 C:\cygwin\usr\X11R6\bin\cygfreetype-9.dll - os=4.0 img=1.0 sys=4.0
+                  "cygfreetype-9.dll" v0.0 ts=2003/10/17 23:44
+   36k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygFS-6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygFS-6.dll" v0.0 ts=2005/2/23 6:34
+  358k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygGL-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygGL-1.dll" v0.0 ts=2005/2/23 6:39
+  438k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygGLU-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygGLU-1.dll" v0.0 ts=2005/2/23 6:41
+  140k 2004/08/06 C:\cygwin\usr\X11R6\bin\cygglut-3.dll - os=4.0 img=1.0 sys=4.0
+                  "cygglut-3.dll" v0.0 ts=2004/8/6 7:43
+   75k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygICE-6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygICE-6.dll" v0.0 ts=2005/2/23 6:28
+   77k 2004/03/31 C:\cygwin\usr\X11R6\bin\cygMrm-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygMrm-2.dll" v0.0 ts=2004/3/30 20:23
+    9k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygoldX-6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygoldX-6.dll" v0.0 ts=2005/2/23 6:28
+ 1413k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygOSMesa-4.dll - os=4.0 img=1.0 sys=4.0
+                  "cygOSMesa-4.dll" v0.0 ts=2005/2/23 6:39
+   20k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygpsres-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygpsres-1.dll" v0.0 ts=2005/2/23 6:42
+   30k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygSM-6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygSM-6.dll" v0.0 ts=2005/2/23 6:28
+   66k 2004/03/31 C:\cygwin\usr\X11R6\bin\cygUil-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygUil-2.dll" v0.0 ts=2004/3/30 20:23
+  877k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygX11-6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygX11-6.dll" v0.0 ts=2005/2/23 6:28
+  254k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXaw-6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXaw-6.dll" v0.0 ts=2005/2/23 6:31
+  356k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXaw-7.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXaw-7.dll" v0.0 ts=2005/2/23 6:32
+  363k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXaw-8.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXaw-8.dll" v0.0 ts=2005/2/23 6:33
+  275k 2004/01/13 C:\cygwin\usr\X11R6\bin\cygXaw3d-7.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXaw3d-7.dll" v0.0 ts=2004/1/13 14:17
+    9k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXcomposite-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXcomposite-1.dll" v0.0 ts=2005/2/23 6:44
+   30k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXcursor-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXcursor-1.dll" v0.0 ts=2005/2/23 6:43
+    9k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXdamage-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXdamage-1.dll" v0.0 ts=2005/2/23 6:44
+    7k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXevie-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXevie-1.dll" v0.0 ts=2005/2/23 6:43
+   49k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXext-6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXext-6.dll" v0.0 ts=2005/2/23 6:28
+   16k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXfixes-3.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXfixes-3.dll" v0.0 ts=2005/2/23 6:43
+   56k 2004/03/11 C:\cygwin\usr\X11R6\bin\cygXft-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXft-1.dll" v0.0 ts=2003/11/17 17:42
+   63k 2004/03/23 C:\cygwin\usr\X11R6\bin\cygXft-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXft-2.dll" v0.0 ts=2004/3/23 14:20
+   27k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXi-6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXi-6.dll" v0.0 ts=2005/2/23 6:34
+  125k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygxkbfile-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygxkbfile-1.dll" v0.0 ts=2005/2/23 6:34
+   12k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygxkbui-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygxkbui-1.dll" v0.0 ts=2005/2/23 6:34
+ 1294k 2004/03/31 C:\cygwin\usr\X11R6\bin\cygXm-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXm-2.dll" v0.0 ts=2004/3/30 20:20
+  459k 2004/02/10 C:\cygwin\usr\X11R6\bin\cygXmHTML-0.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXmHTML-0.dll" v0.0 ts=2004/2/10 12:14
+   76k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXmu-6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXmu-6.dll" v0.0 ts=2005/2/23 6:30
+   11k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXmuu-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXmuu-1.dll" v0.0 ts=2005/2/23 6:30
+   26k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXp-6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXp-6.dll" v0.0 ts=2005/2/23 6:31
+   52k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXpm-4.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXpm-4.dll" v0.0 ts=2005/2/23 6:30
+   12k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXrandr-2.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXrandr-2.dll" v0.0 ts=2005/2/23 6:43
+   28k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXrender-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXrender-1.dll" v0.0 ts=2005/2/23 6:42
+    8k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXRes-1.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXRes-1.dll" v0.0 ts=2005/2/23 6:43
+   40k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygxrx-6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygxrx-6.dll" v0.0 ts=2005/2/23 6:53
+   25k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygxrxnest-6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygxrxnest-6.dll" v0.0 ts=2005/2/23 6:53
+  282k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXt-6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXt-6.dll" v0.0 ts=2005/2/23 6:29
+   27k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXTrap-6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXTrap-6.dll" v0.0 ts=2005/2/23 6:43
+   17k 2005/02/23 C:\cygwin\usr\X11R6\bin\cygXtst-6.dll - os=4.0 img=1.0 sys=4.0
+                  "cygXtst-6.dll" v0.0 ts=2005/2/23 6:34
+  578k 2006/01/10 C:\cygwin\lib\lapack\cygblas.dll - os=4.0 img=1.0 sys=4.0
+                  "cygblas.dll" v0.0 ts=2006/1/10 10:01
+ 4887k 2006/01/10 C:\cygwin\lib\lapack\cyglapack.dll - os=4.0 img=1.0 sys=4.0
+                  "cyglapack.dll" v0.0 ts=2006/1/10 10:01
+Warning: There are multiple cygwin1.dlls on your path
+
+Service             : sshd
+Display name        : CYGWIN sshd
+Current State       : Running
+Controls Accepted   : Stop
+Command             : /usr/sbin/sshd -D
+stdin path          : /dev/null
+stdout path         : /var/log/sshd.log
+stderr path         : /var/log/sshd.log
+Environment         : CYGWIN="tty ntsec" 
+Process Type        : Own Process
+Startup             : Automatic
+Dependencies        : tcpip
+Account             : LocalSystem
+
+
+Cygwin Package Information
+Last downloaded files to: C:\cygwin\tmp
+Last downloaded files from: http://cygwin.osuosl.org
+
+Package                  Version
+_update-info-dir         00373-1
+a2ps                     4.13-1
+aalib                    1.4rc5-1
+aalib-devel              1.4rc5-1
+agetty                   2.1-1
+alternatives             1.3.20a-2
+antiword                 0.34-2
+apache                   1.3.33-2
+apache2                  2.0.55-1
+apache2-devel            2.0.55-1
+apache2-manual           2.0.55-1
+apr                      0.9.7-1
+apr-util                 0.9.7-1
+ash                      20040127-3
+aspell                   0.50.3-1
+aspell-de                0.50.2-1
+aspell-dev               0.50.3-1
+aspell-doc               0.50.3-1
+aspell-en                0.51.0-1
+aspell-pl                0.50.2-1
+astyle                   1.15.3-3
+atk                      1.9.1-1
+atk-devel                1.9.1-1
+atk-doc                  1.9.1-1
+atk-runtime              1.9.1-1
+audiofile                0.2.6-2
+autoconf                 2.59-2
+autoconf2.1              2.13-1
+autoconf2.5              2.59-2
+automake1.4              1.4p6-2
+automake1.6              1.6.3-2
+automake1.7              1.7.9-2
+automake1.8              1.8.5-2
+automake1.9              1.9.6-1
+autossh                  1.3-2
+base-files               3.7-1
+base-passwd              2.2-1
+bash                     3.0-14
+bash-completion          20050721-1
+bashdb                   3.00_0.02-2
+bc                       1.06-2
+binutils                 20050610-1
+bison                    2.1-1
+boost                    1.33.1-2
+boost-devel              1.33.1-2
+bsflite                  0.81-1
+byacc                    1.9-1
+bzip2                    1.0.3-1
+bzr                      0.7-1
+c-client                 2002e-3
+c3270                    3.3.4p7-1
+cabextract               1.1-1
+cadaver                  0.22.2-1
+cairo                    1.0.2-1
+cairo-doc                1.0.2-1
+catgets                  1.0-1
+ccache                   2.2-1
+ccdoc                    0.8.41-2
+ccrypt                   1.7-1
+cgoban                   1.9.14-1
+check                    0.9.1-1
+chere                    0.6-3
+chkconfig                1.2.24h-1
+clamav                   0.87.1-1
+clear                    1.0-2
+clisp                    2.38-1
+cmake                    2.2.3-2
+cocom                    0.995-1
+compface                 1.5.2-1
+coreutils                5.94-1
+cpio                     2.6-5
+cppunit                  1.9.14-1
+cramfs                   1.1-1
+cron                     3.0.1-19
+crypt                    1.1-1
+ctags                    5.5-4
+ctetris                  0.30-1
+curl                     7.15.1-1
+curl-devel               7.15.1-1
+cvs                      1.11.17-1
+cvsutils                 0.2.3-1
+cygrunsrv                1.12-1
+cygutils                 1.2.10-1
+cygwin                   1.5.19-4
+cygwin-doc               1.4-3
+cygwin-x-doc             1.0.4-1
+cyrus-sasl               2.1.19-3
+d                        1.2.0-1
+db2                      2.7.7-4
+db3.1                    3.1.17-2
+db4.1                    4.1.25-1
+db4.2                    4.2.52-1
+db4.3                    4.3.28-1
+ddd                      3.3.9-1
+dejagnu                  20021217-2
+desktop-file-utils       0.10-1
+diffstat                 1.40-1
+diffutils                2.8.7-1
+distcc                   2.18.3-1
+docbook-xml412           4.1.2-1
+docbook-xml42            4.2-3
+docbook-xml43            4.3-1
+docbook-xml44            4.4-1
+docbook-xsl              1.69.1-1
+doxygen                  1.4.6-1
+dpkg                     1.10.4-2
+e2fsimage                0.2.0-2
+e2fsprogs                1.35-3
+ec-fonts-mftraced        1.0.8-4
+ed                       0.2-1
+editrights               1.01-1
+ELFIO                    1.0.2-1
+emacs                    21.2-13
+emacs-el                 21.2-13
+emacs-X11                21.2-13
+email                    2.3.4-1
+enscript                 1.6.4-1
+epstool                  3.08-1
+esound                   0.2.36-1
+exif                     0.6.9-2
+exim                     4.60-1
+expat                    1.95.8-1
+expect                   20030128-1
+fetchmail                6.3.1-1
+fftw3                    3.0.1-2
+fftw3-dev                3.0.1-2
+fftw3-doc                3.0.1-2
+figlet                   2.2-1
+file                     4.16-1
+findutils                4.2.27-1
+flac                     1.1.2-1
+flac-devel               1.1.2-1
+flex                     2.5.4a-3
+fltk                     1.1.4-2
+fontconfig               2.2.2-1
+fortune                  1.99.1-1
+freeglut                 2.2.0-1
+freetype2                2.1.9-1
+fvwm                     2.4.7-3
+gail                     1.8.8-1
+gawk                     3.1.5-2
+gcc                      3.4.4-1
+gcc-ada                  3.4.4-1
+gcc-core                 3.4.4-1
+gcc-g++                  3.4.4-1
+gcc-g77                  3.4.4-1
+gcc-gdc                  3.4.4-1
+gcc-gpc                  3.3.3-3
+gcc-java                 3.4.4-1
+gcc-mingw                20040810-1
+gcc-mingw-ada            20050522-1
+gcc-mingw-core           20050522-1
+gcc-mingw-g++            20050522-1
+gcc-mingw-g77            20050522-1
+gcc-mingw-gdc            20050522-1
+gcc-mingw-gpc            20040810-1
+gcc-mingw-java           20050522-1
+gcc-mingw-objc           20050522-1
+gcc-objc                 3.4.4-1
+gcc-testsuite            3.4.4-1
+GConf2                   2.10.1-1
+gd                       2.0.33-1
+gdb                      20041228-3
+gdbm                     1.8.3-7
+gdk-pixbuf               0.22.0-4
+gdk-pixbuf-devel         0.22.0-4
+gdk-pixbuf-doc           0.22.0-4
+geoip                    1.3.14-1
+gettext                  0.14.5-1
+gettext-devel            0.14.5-1
+ghostscript              8.50-1
+ghostscript-base         8.50-1
+ghostscript-x11          8.50-1
+glib                     1.2.10-3
+glib-devel               1.2.10-3
+glib2                    2.6.6-2
+glib2-devel              2.6.6-2
+glib2-doc                2.6.6-2
+glib2-runtime            2.6.6-2
+glitz                    0.4.4-2
+gmp                      4.1.4-2
+gnome-common             2.12.0-1
+gnome-icon-theme         2.10.1-1
+gnome-keyring            0.4.7-1
+gnome-libs               1.4.2-3
+gnome-libs-devel         1.4.2-3
+gnome-libs-doc           1.4.2-3
+gnome-mime-data          2.4.2-1
+gnome-themes             2.12.3-1
+gnome-vfs2               2.12.2-1
+gnome-vfs2-devel         2.12.2-1
+gnome-vfs2-doc           2.12.2-1
+gnubg                    0.14.3-1
+gnugo                    3.6-1
+gnupg                    1.4.1-1
+gnuplot                  4.0.0-1
+gnutls                   1.0.25-2
+gnutls-devel             1.0.25-2
+gnutls-doc               1.0.25-2
+gperf                    2.7.2-1
+grace                    5.1.19-1
+GraphicsMagick           1.0.6-1
+grep                     2.5.1a-2
+groff                    1.18.1-2
+gsl                      1.7-1
+gtk+                     1.2.10-2
+gtk+-devel               1.2.10-2
+gtk-doc                  1.3-1
+gtk-engines              0.12-2
+gtk2-x11                 2.6.10-1
+gtk2-x11-devel           2.6.10-1
+gtk2-x11-doc             2.6.10-1
+gtk2-x11-engines         2.6.7-1
+gtk2-x11-runtime         2.6.10-1
+gtypist                  2.7-2
+guile                    1.6.7-4
+guile-devel              1.6.7-4
+guile-doc                1.6.7-4
+gv                       3.6.1-1
+gvim                     6.4-1
+gzip                     1.3.5-1
+help2man                 1.35.1-1
+hexedit                  1.2.10-1
+hicolor-icon-theme       0.5-1
+httptunnel               3.3-1
+ImageMagick              6.0.4-1
+imlib                    1.9.14-3
+indent                   2.2.9-1
+inetutils                1.3.2-35
+initscripts              0.9-1
+intltool                 0.33-1
+ioperm                   0.4-1
+irc                      20010101-3
+jasper                   1.701.0-1
+jbigkit                  1.5-3
+jgraph                   8.3-1
+jikes                    1.22-1
+joe                      3.3-2
+jpeg                     6b-11
+keychain                 2.5.3.1-1
+lablgtk2                 2.4.0-2
+lapack                   3.0-4
+lcms                     1.14-1
+less                     381-1
+lesstif                  0.93.94-2
+lftp                     2.6.10-2
+libaa1                   1.4rc5-1
+libao                    0.8.6-1
+libao-devel              0.8.6-1
+libao2                   0.8.6-1
+libapr0                  0.9.7-1
+libaprutil0              0.9.7-1
+libart_lgpl              1.4.2-3
+libart_lgpl2             2.3.17-1
+libaspell15              0.50.3-1
+libaudiofile-devel       0.2.6-2
+libaudiofile0            0.2.6-2
+libbonobo2               2.10.1-1
+libbonobo2-devel         2.10.1-1
+libbonobo2-doc           2.10.1-1
+libbonoboui2             2.10.1-1
+libbz2_0                 1.0.2-1
+libbz2_1                 1.0.3-1
+libcairo2                1.0.2-1
+libcharset1              1.9.2-2
+libcroco06               0.6.0-1
+libcurl2                 7.11.1-2
+libcurl3                 7.15.1-1
+libdb2                   2.7.7-4
+libdb2-devel             2.7.7-4
+libdb3.1                 3.1.17-2
+libdb3.1-devel           3.1.17-2
+libdb4.1                 4.1.25-1
+libdb4.1-devel           4.1.25-1
+libdb4.2                 4.2.52-1
+libdb4.2-devel           4.2.52-1
+libdb4.3                 4.3.28-1
+libdb4.3-devel           4.3.28-1
+libEMF                   1.0.3-1
+libEMF-devel             1.0.3-1
+libEMF1                  1.0.3-1
+libesound-devel          0.2.36-1
+libesound0               0.2.36-1
+libexif                  0.6.12-1
+libexif10                0.6.9-2
+libFLAC++5               1.1.2-1
+libFLAC7                 1.1.2-1
+libfontconfig-devel      2.2.2-1
+libfontconfig1           2.2.2-1
+libfpx                   1.2.0.12-1
+libfreetype2-devel       2.1.9-1
+libfreetype26            2.1.9-1
+libgc                    6.4-1
+libgcrypt                1.2.1-1
+libgd-devel              2.0.33-1
+libgd2                   2.0.33-1
+libgdbm                  1.8.0-5
+libgdbm-devel            1.8.3-7
+libgdbm3                 1.8.3-3
+libgdbm4                 1.8.3-7
+libgeotiff               1.2.2-1
+libgeotiff-devel         1.2.2-1
+libgeotiff1              1.2.2-1
+libgettextpo0            0.14.5-1
+libggi2                  2.2.0-2
+libggi2-devel            2.2.0-2
+libggi2-display-aa       2.2.0-2
+libggi2-display-file     2.2.0-2
+libggi2-display-terminfo 2.2.0-2
+libggi2-display-x        2.2.0-2
+libggi2-samples          2.2.0-2
+libggimisc2              2.2.0-1
+libggimisc2-devel        2.2.0-1
+libggimisc2-samples      2.2.0-1
+libggiwmh0               0.3.0-1
+libggiwmh0-devel         0.3.0-1
+libggiwmh0-display-x     0.3.0-1
+libggiwmh0-samples       0.3.0-1
+libgii1                  1.0.0-1
+libgii1-devel            1.0.0-1
+libgii1-input-x          1.0.0-1
+libglade2                2.5.1-1
+libglitz-glx1            0.4.4-2
+libglitz1                0.4.4-2
+libgnome                 1.4.2-3
+libgnome2                2.12.0.1-1
+libgnome2-devel          2.12.0.1-1
+libgnome2-doc            2.12.0.1-1
+libgnomecanvas2          2.12.0-1
+libgnomecanvas2-devel    2.12.0-1
+libgnomecanvas2-doc      2.12.0-1
+libgnomecanvaspixbuf     0.22.0-4
+libgnomeprint22          2.10.3-1
+libgnomeprintui22        2.10.2-1
+libgnomesupport          1.4.2-3
+libgnomeui               1.4.2-3
+libgnomeui2              2.12.1-1
+libgnomeui2-devel        2.12.1-1
+libgnomeui2-doc          2.12.1-1
+libgnorba                1.4.2-3
+libgnutls11              1.0.25-2
+libgpg-error             1.1-1
+libGraphicsMagick-devel  1.0.6-1
+libGraphicsMagick0       1.0.6-1
+libgtkhtml2              2.6.3-2
+libgtkhtml2-devel        2.6.3-2
+libgtkxmhtml             1.4.2-3
+libguile12               1.6.7-4
+libiconv                 1.9.2-2
+libiconv2                1.9.2-2
+libIDL                   0.5.17-2
+libIDL2                  0.8.6-1
+libintl                  0.10.38-3
+libintl1                 0.10.40-1
+libintl2                 0.12.1-3
+libintl3                 0.14.5-1
+libjpeg62                6b-11
+libjpeg6b                6b-8
+libkpathsea3             2.0.2-15
+libkpathsea4             3.0.0-3
+libltdl3                 1.5.20-2
+libMagick-devel          6.0.4-1
+libMagick6               6.0.4-1
+libmcrypt                2.5.7-2
+libmcrypt-devel          2.5.7-2
+libmng                   1.0.9-1
+libncurses-devel         5.4-4
+libncurses5              5.2-1
+libncurses6              5.2-8
+libncurses7              5.3-4
+libncurses8              5.4-4
+libneon24                0.24.7-2
+libneon25                0.25.5-1
+libnetpbm-devel          10.30-1
+libnetpbm10              10.30-1
+libogg                   1.1.2-1
+libogg-devel             1.1.2-1
+libogg0                  1.1.2-1
+libOggFLAC++2            1.1.2-1
+libOggFLAC3              1.1.2-1
+libopencdk8              0.5.7-1
+libopenldap2             2.1.25-1
+libopenldap2_2_7         2.2.26-2
+libpcre0                 6.3-1
+libplot2                 2.4.1-1
+libplotter2              2.4.1-1
+libpng                   1.2.8-2
+libpng10                 1.0.18-2
+libpng10-devel           1.0.18-2
+libpng12                 1.2.8-2
+libpng12-devel           1.2.8-2
+libpng2                  1.0.12-1
+libpopt0                 1.6.4-4
+libproj-devel            4.4.8-1
+libproj0                 4.4.8-1
+libreadline4             4.1-2
+libreadline5             4.3-5
+libreadline6             5.1-4
+libsasl2                 2.1.19-3
+libsasl2-devel           2.1.19-3
+libsmi                   0.4.2-1
+libspeex1                1.1.10-1
+libtasn1                 0.2.15-1
+libtiff-devel            3.7.3-1
+libtiff3                 3.6.0-2
+libtiff4                 3.6.0-5
+libtiff5                 3.7.3-1
+libtool1.5               1.5.20-2
+libungif                 4.1.4-1
+libungif4                4.1.4-1
+libvorbis                1.1.1-1
+libvorbis-devel          1.1.1-1
+libvorbis0               1.1.1-1
+libvorbisenc2            1.1.1-1
+libvorbisfile3           1.1.1-1
+libwmf                   0.2.8.4-1
+libwnck                  2.12.3-1
+libwnck-devel            2.12.3-1
+libwnck-doc              2.12.3-1
+libwnck1_18              2.12.3-1
+libxerces-c21            2.1.0-1
+libxerces-c22            2.2.0-1
+libxerces-c23            2.3.0-4
+libxerces-c24            2.4.0-4
+libxerces-c25            2.5.0-1
+libXft                   2.1.6-1
+libXft-devel             2.1.6-1
+libXft1                  1.0.0-1
+libXft2                  2.1.6-1
+libxmi0                  2.4.1-1
+libxml                   1.8.17-2
+libxml2                  2.6.22-1
+libxml2-devel            2.6.22-1
+libxml2-doc              2.6.22-1
+libxml2-python           2.6.22-1
+libxslt                  1.1.15-2
+libzvt                   1.4.2-3
+lighttpd                 1.4.9-1
+lilypond                 2.6.4-1
+lilypond-doc             2.6.4-1
+links                    0.99pre14-1
+login                    1.9-7
+lynx                     2.8.5-4
+m4                       1.4.4-1
+make                     3.80-1
+man                      1.5p-1
+mathomatic               12.5.2-1
+mc                       4.6.1-2
+mhash                    0.9.2-1
+mined                    2000.11-1
+mingw-bzip2              1.0.3-1
+mingw-libbz2_1           1.0.3-1
+mingw-runtime            3.9-2
+mingw-zlib               1.2.2-2
+minires                  1.00-1
+minires-devel            1.00-1
+mktemp                   1.5-3
+monotone                 0.25-1
+more                     2.11o-2
+mt                       2.3.1-1
+mtd                      20050419-1
+mutt                     1.4.2.1i-1
+naim                     0.11.8.1-1
+nano                     1.2.2-1
+nasm                     0.98.39-1
+ncftp                    3.1.7-1
+ncurses                  5.4-4
+ncurses-demo             5.4-4
+nedit                    5.5-1
+neon                     0.25.5-1
+netcat                   1.10-2
+netpbm                   10.30-1
+netpbm-doc               10.30-1
+nfs-server               2.3-4
+Numeric                  24.2-1
+ocaml                    3.08.1-1
+octave                   2.1.72-1
+octave-doc               2.1.72-1
+octave-forge             2005.06.13-5
+octave-headers           2.1.72-1
+octave-htmldoc           2.1.72-1
+octave-info              2.1.72-1
+octave-otags             2.1.72-1
+openbox                  0.99.1-4
+opencdk                  0.5.7-1
+opengl                   1.1.0-7
+openjade                 1.3.3-1
+openldap                 2.2.26-2
+openldap-devel           2.2.26-2
+OpenSP                   1.5.1-1
+openssh                  4.3p2-1
+openssl                  0.9.8a-1
+openssl-devel            0.9.8a-1
+openssl097               0.9.7i-1
+ORBit                    0.5.17-2
+ORBit-devel              0.5.17-2
+ORBit2                   2.12.3-1
+ORBit2-devel             2.12.3-1
+orpie                    1.4.3-1
+pango                    1.8.1-1
+pango-devel              1.8.1-1
+pango-doc                1.8.1-1
+pango-runtime            1.8.1-1
+par                      1.52-1
+patch                    2.5.8-8
+patchutils               0.2.31-1
+pcre                     6.3-1
+pcre-devel               6.3-1
+pcre-doc                 6.3-1
+pdksh                    5.2.14-3
+perl                     5.8.7-5
+perl-ExtUtils-Depends    0.205-1
+perl-ExtUtils-PkgConfig  1.07-1
+perl-libwin32            0.26-1
+perl-Tk                  804.027-4
+perl-Win32-GUI           1.02-1
+perl_manpages            5.8.7-5
+pine                     4.58-1
+pinfo                    0.6.8-1
+ping                     1.0-1
+pkgconfig                0.17.2-2
+ploticus                 2.32-1
+ploticus-common          2.32-1
+ploticus-doc             2.32-1
+plotutils                2.4.1-1
+plotutils-devel          2.4.1-1
+plotutils-doc            2.4.1-1
+popt                     1.6.4-4
+postgresql               8.0.4-1
+pr3287                   3.3.4p7-1
+procmail                 3.22-10
+procps                   3.2.5-1
+proftpd                  1.2.10-1
+proj                     4.4.8-1
+psmisc                   21.5-1
+pstoedit                 3.42-1
+pstoedit-devel           3.42-1
+psutils                  1.17-1
+pygtk2                   2.6.3-1
+python                   2.4.1-1
+qt3                      3.3.4-2
+qt3-bin                  3.3.4-2
+qt3-devel                3.3.4-2
+qt3-doc                  3.3.4-2
+quilt                    0.43-1
+rcs                      5.7-3
+readline                 5.1-4
+rebase                   2.4.2-1
+robots                   2.0-4
+rpm                      4.1-2
+rpm-build                4.1-1
+rpm-doc                  4.1-1
+rsync                    2.6.6-1
+ruby                     1.8.4-1
+run                      1.1.6-1
+rxvt                     2.7.10-6
+s3270                    3.3.4p7-1
+sed                      4.1.5-1
+setsid                   0.0-3
+shared-mime-info         0.16-1
+sharutils                4.5.3-1
+shutdown                 1.7-1
+singular-base            3.0.1-1
+singular-help            3.0.1-1
+singular-icons           3.0.1-1
+singular-share           3.0.1-1
+singular-surf            3.0.0-2
+smartmontools            5.33cvs20051205-1
+speex                    1.1.10-1
+speex-devel              1.1.10-1
+splint                   3.1.1-1
+squid                    2.4.STABLE7-1
+ssmtp                    2.60.9-3
+startup-notification     0.8-1
+stow                     1.3.3-1
+stunnel                  4.14-2
+subversion               1.2.3-1
+subversion-apache2       1.2.3-1
+subversion-book          1.2.3-1
+subversion-devel         1.2.3-1
+subversion-perl          1.2.3-1
+subversion-python        1.2.3-1
+suite3270                3.3.4p7-1
+sunrpc                   4.0-3
+SWI-Prolog               5.2.6-1
+swig                     1.3.25-1
+syslog-ng                1.6.9-1
+sysvinit                 2.84-4
+t1lib                    5.1.0-1
+t1lib-x11                5.1.0-1
+tar                      1.15.1-3
+tcl3270                  3.3.4p7-1
+tcltk                    20030901-1
+tcm                      2.20-1
+tcp_wrappers             7.6-1
+tcsh                     6.14.00-5
+termcap                  20050421-1
+terminfo                 5.4_20041009-1
+tetex                    3.0.0-3
+tetex-base               3.0.0-3
+tetex-bin                3.0.0-3
+tetex-devel              3.0.0-3
+tetex-doc                3.0.0-3
+tetex-extra              3.0.0-3
+tetex-tiny               3.0.0-3
+tetex-x11                3.0.0-3
+texi2html                1.76-1
+texinfo                  4.8-1
+TeXmacs                  1.0.6-1
+tidy                     041206-1
+tiff                     3.7.3-1
+time                     1.7-1
+tin                      1.8.1-1
+tinyirc                  1.1-1
+tnef                     1.3.4-1
+transfig                 3.2.4-2
+ttcp                     19980512-1
+typespeed                0.4.4-2
+tzcode                   2005r-2
+ucl                      1.01-1
+unison2.10.2             2.10.2-6
+unison2.12.0             2.12.0-4
+unison2.13               2.13.16-1
+unison2.17               2.17.1-1
+unison2.9.1              2.9.1-3
+unison2.9.20             2.9.20-3
+units                    1.77-1
+unzip                    5.50-5
+upx                      1.24-1
+uw-imap                  2002e-3
+uw-imap-imapd            2002e-3
+uw-imap-util             2002e-3
+vim                      6.4-4
+vorbis-tools             1.1.1-5
+w32api                   3.6-1
+w3m                      0.5.1-1
+wget                     1.10.2-1
+which                    1.7-1
+whois                    4.7.11-1
+WindowMaker              0.90.0-2
+WordNet                  2.1-1
+wtf                      0.0.4-6
+X-start-menu-icons       1.0.4-1
+X-startup-scripts        1.0.11-1
+x2x                      1.30-2
+x3270                    3.3.4p7-1
+Xaw3d                    1.5D-5
+xemacs                   21.4.19-1
+xemacs-emacs-common      21.4.19-1
+xemacs-mule-sumo         2005-12-08-1
+xemacs-sumo              2005-12-08-1
+xemacs-tags              21.4.19-1
+xerces-c                 2.5.0-1
+xerces-c-devel           2.5.0-1
+xerces-c-doc             2.5.0-1
+xfig                     3.2.4-6
+xfig-lib                 3.2.4-6
+XFree86-lib-compat       4.3.0-2
+xgraph                   12.1-1
+xinetd                   2.3.9-1
+XmHTML                   1.1.7-1
+xmlto                    0.0.18-1
+xmon                     1.5.6-1
+xorg-x11-base            6.8.2.0-1
+xorg-x11-bin             6.8.2.0-1
+xorg-x11-bin-dlls        6.8.2.0-1
+xorg-x11-bin-lndir       6.8.2.0-1
+xorg-x11-devel           6.8.2.0-2
+xorg-x11-etc             6.8.2.0-1
+xorg-x11-f100            6.8.1.0-3
+xorg-x11-fcyr            6.8.1.0-2
+xorg-x11-fenc            6.8.1.0-2
+xorg-x11-fnts            6.8.1.0-3
+xorg-x11-fscl            6.8.1.0-2
+xorg-x11-fsrv            6.8.2.0-1
+xorg-x11-libs-data       6.8.2.0-1
+xorg-x11-man-pages       6.8.2.0-1
+xorg-x11-man-pages-html  6.8.2.0-1
+xorg-x11-nest            6.8.2.0-2
+xorg-x11-vfb             6.8.2.0-2
+xorg-x11-xwin            6.8.2.0-4
+xorg-x11-xwin-gl         6.8.2.0-4
+xpdf                     3.01-2
+xpm-nox                  4.2.0-4
+xterm                    202-1
+xwinwm                   0.0.5-1
+zip                      2.3-6
+zlib                     1.2.3-1
+zsh                      4.2.6-1
+Use -h to see help about each section
