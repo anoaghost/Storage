@@ -1,4 +1,3 @@
-<h1 id="storage"><a href="https://anoaghost.github.io/storage/" style="color:#0366d6;text-decoration:none;">Storage</a></h1>
 <p><b> These are only a few tools to use </b></p>
 
 <ul>
