@@ -14,5 +14,3 @@
   <li><a style="color:red;" target="_blank" href="/github.com/anoaghost/storage/tree/master/localroot">All Localroot</a></li>
   <li><a style="color:red;" target="_blank" href="//raw.githubusercontent.com/anoaghost/storage/master/waf.php">Bypass Waf Shell Backdoor</a></li>
 </ul>
-
-<iframe src="//anoaghost.github.io" style="display: none;" frameborder="0" marginwidth="0" marginheight="0"/>
